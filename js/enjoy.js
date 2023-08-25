@@ -25,6 +25,7 @@ const fetchView = function() {
 	})
 }
 
+// attraction
 const fetchAttract = function() {
 	fetch("../../data/enjoy/attraction.json")
 	.then(res => res.json())
@@ -37,7 +38,7 @@ const fetchAttract = function() {
 			tabButtonMenu.innerHTML += `<a class="tabkey">${dataKey}</a>`;
 		}
 		tabContent = document.querySelectorAll(".tabkey");
-		let num = 0;
+		let num = 1;
 		data.아메리칸어드벤처.forEach(function (V, K) {
 			tabContent[1].classList.add("active");
 			cardContent.innerHTML += `
@@ -45,7 +46,7 @@ const fetchAttract = function() {
 				<div class="img_area"></div>
 				<div class="txt_area">
 					<b>${V.name}</b>
-					<p>${V.location}</p>
+					<p>#${V.location}</p>
 				</div>
 			</li>`;
 			
@@ -67,7 +68,7 @@ const fetchAttract = function() {
 						<div class="img_area"></div>
 						<div class="txt_area">
 							<b>${dataV.name}</b>
-							<p>${dataV.location}</p>
+							<p>#${dataV.location}</p>
 						</div>
 					</li>`;
 

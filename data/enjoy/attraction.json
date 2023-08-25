@@ -3,6 +3,7 @@
 		{
 			"id": "1",
 			"name": "휴먼 스카이(상단)",
+			"location": "글로벌 페어",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb1.jpg",
 			"detail_img": "",
 			"url": "",
@@ -16,6 +17,7 @@
 		{
 			"id": "2",
 			"name": "콜럼버스 대탐험",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb2.jpg",
 			"detail_img": "",
 			"url": "",
@@ -27,6 +29,7 @@
 		{
 			"id": "3",
 			"name": "더블 락스핀",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb3.jpg",
 			"detail_img": "",
 			"url": "",
@@ -38,6 +41,7 @@
 		{
 			"id": "4",
 			"name": "렛츠 트위스트",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb4.jpg",
 			"detail_img": "",
 			"url": "",
@@ -49,6 +53,7 @@
 		{
 			"id": "5",
 			"name": "롤링 엑스 트레인",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb5.jpg",
 			"detail_img": "",
 			"url": "",
@@ -60,6 +65,7 @@
 		{
 			"id": "6",
 			"name": "허리케인",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb6.jpg",
 			"detail_img": "",
 			"url": "",
@@ -71,6 +77,7 @@
 		{
 			"id": "7",
 			"name": "챔피온쉽 로데오",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb7.jpg",
 			"detail_img": "",
 			"url": "",
@@ -82,6 +89,7 @@
 		{
 			"id": "8",
 			"name": "스카이 크루즈(상단)",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb8.jpg",
 			"detail_img": "",
 			"url": "",
@@ -93,6 +101,7 @@
 		{
 			"id": "9",
 			"name": "스카이 웨이(상단)",
+			"location": "아메리칸 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb9.jpg",
 			"detail_img": "",
 			"url": "",
@@ -106,6 +115,7 @@
 		{
 			"id": "10",
 			"name": "썬더폴스",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb10.jpg",
 			"detail_img": "",
 			"url": "",
@@ -117,6 +127,7 @@
 		{
 			"id": "11",
 			"name": "키즈빌리지",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb11.jpg",
 			"detail_img": "",
 			"url": "",
@@ -128,6 +139,7 @@
 		{
 			"id": "12",
 			"name": "매직 쿠키 하우스",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb12.jpg",
 			"detail_img": "",
 			"url": "",
@@ -139,6 +151,7 @@
 		{
 			"id": "13",
 			"name": "시크릭쥬쥬 비행기",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb13.jpg",
 			"detail_img": "",
 			"url": "",
@@ -150,6 +163,7 @@
 		{
 			"id": "14",
 			"name": "자동차 왕국",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb14.jpg",
 			"detail_img": "",
 			"url": "",
@@ -161,6 +175,7 @@
 		{
 			"id": "15",
 			"name": "플래쉬 팡팡",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb15.jpg",
 			"detail_img": "",
 			"url": "",
@@ -172,6 +187,7 @@
 		{
 			"id": "16",
 			"name": "피터팬",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb16.jpg",
 			"detail_img": "",
 			"url": "",
@@ -183,6 +199,7 @@
 		{
 			"id": "17",
 			"name": "나는 코끼리",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb17.jpg",
 			"detail_img": "",
 			"url": "",
@@ -194,6 +211,7 @@
 		{
 			"id": "18",
 			"name": "로보트카",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb18.jpg",
 			"detail_img": "",
 			"url": "",
@@ -205,6 +223,7 @@
 		{
 			"id": "19",
 			"name": "붕붕카",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb19.jpg",
 			"detail_img": "",
 			"url": "",
@@ -216,6 +235,7 @@
 		{
 			"id": "20",
 			"name": "범퍼카",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb20.jpg",
 			"detail_img": "",
 			"url": "",
@@ -227,6 +247,7 @@
 		{
 			"id": "21",
 			"name": "스카이 댄싱",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb21.jpg",
 			"detail_img": "",
 			"url": "",
@@ -238,6 +259,7 @@
 		{
 			"id": "22",
 			"name": "매직 스윙",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb22.jpg",
 			"detail_img": "",
 			"url": "",
@@ -249,6 +271,7 @@
 		{
 			"id": "23",
 			"name": "비룡열차",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb23.jpg",
 			"detail_img": "",
 			"url": "",
@@ -260,6 +283,7 @@
 		{
 			"id": "24",
 			"name": "우주 전투기",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb24.jpg",
 			"detail_img": "",
 			"url": "",
@@ -271,6 +295,7 @@
 		{
 			"id": "25",
 			"name": "스푸키 펀 하우스",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb25.jpg",
 			"detail_img": "",
 			"url": "",
@@ -282,6 +307,7 @@
 		{
 			"id": "26",
 			"name": "레이싱 코스터",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb26.jpg",
 			"detail_img": "",
 			"url": "",
@@ -293,6 +319,7 @@
 		{
 			"id": "27",
 			"name": "볼 하우스",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb27.jpg",
 			"detail_img": "",
 			"url": "",
@@ -304,6 +331,7 @@
 		{
 			"id": "28",
 			"name": "릴리 댄스",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb28.jpg",
 			"detail_img": "",
 			"url": "",
@@ -315,6 +343,7 @@
 		{
 			"id": "29",
 			"name": "플라잉 레스큐",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb29.jpg",
 			"detail_img": "",
 			"url": "",
@@ -326,6 +355,7 @@
 		{
 			"id": "30",
 			"name": "플레이 야드",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb30.jpg",
 			"detail_img": "",
 			"url": "",
@@ -337,6 +367,7 @@
 		{
 			"id": "31",
 			"name": "스카이 크루즈(상단)",
+			"location": "매직랜드",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb31.jpg",
 			"detail_img": "",
 			"url": "",
@@ -350,6 +381,7 @@
 		{
 			"id": "32",
 			"name": "T 익스프레스",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb32.jpg",
 			"detail_img": "",
 			"url": "https://youtu.be/embed/Y9hvLFOAX38?si=rg8Q69jq6kX0IL0T",
@@ -361,6 +393,7 @@
 		{
 			"id": "33",
 			"name": "로얄 쥬빌리 캐로셀",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb33.jpg",
 			"detail_img": "",
 			"url": "",
@@ -372,6 +405,7 @@
 		{
 			"id": "34",
 			"name": "페스티벌 트레인",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb34.jpg",
 			"detail_img": "",
 			"url": "",
@@ -383,6 +417,7 @@
 		{
 			"id": "35",
 			"name": "스페이스투어 (4D 어트랙션)",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb35.jpg",
 			"detail_img": "",
 			"url": "",
@@ -394,6 +429,7 @@
 		{
 			"id": "36",
 			"name": "레니의 마법학교",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb36.jpg",
 			"detail_img": "",
 			"url": "",
@@ -405,6 +441,7 @@
 		{
 			"id": "37",
 			"name": "슈팅고스트",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb37.jpg",
 			"detail_img": "",
 			"url": "https://www.youtube.com/watch?v=0PmYku1DvJk",
@@ -416,6 +453,7 @@
 		{
 			"id": "38",
 			"name": "스카이 웨이(하단)",
+			"location": "유러피언 어드벤처",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb38.jpg",
 			"detail_img": "",
 			"url": "",
@@ -429,6 +467,7 @@
 		{
 			"id": "39",
 			"name": "사파리 월드",
+			"location": "주토피아",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb39.jpg",
 			"detail_img": "",
 			"url": "",
@@ -440,6 +479,7 @@
 		{
 			"id": "40",
 			"name": "로스트 밸리",
+			"location": "주토피아",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb40.jpg",
 			"detail_img": "",
 			"url": "",
@@ -451,6 +491,7 @@
 		{
 			"id": "41",
 			"name": "판다월드",
+			"location": "주토피아",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb41.jpg",
 			"detail_img": "",
 			"url": "",
@@ -462,6 +503,7 @@
 		{
 			"id": "42",
 			"name": "아마존 익스프레스",
+			"location": "주토피아",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb42.jpg",
 			"detail_img": "",
 			"url": "",
@@ -473,6 +515,7 @@
 		{
 			"id": "43",
 			"name": "랩터 레인저 : The Escape",
+			"location": "주토피아",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb43.jpg",
 			"detail_img": "",
 			"url": "",
@@ -484,6 +527,7 @@
 		{
 			"id": "44",
 			"name": "휴먼 스카이(하단)",
+			"location": "주토피아",
 			"thumb":"../../asset/image/enjoy/ENJOY_attract_thumb44.jpg",
 			"detail_img": "",
 			"url": "",

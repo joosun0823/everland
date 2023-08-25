@@ -1,14 +1,25 @@
-const header = document.querySelector("header")
-const sections = document.querySelectorAll(".section")
-
-
 new fullpage('#fullpage', {
     afterLoad: function (origin, destination, direction) {
+		console.log(destination.index)
         if (destination.index == 0) {
-                header.classList.add("active");
+                $("header").addClass("active");
             } else {
-                header.classList.remove("active");
+                $("header").removeClass("active");
             }
+
+		if (destination.index != 0) {
+                $(".gnb > li > a").removeClass("active");
+                $(".gnb_right").removeClass("active");
+            } else {
+                $(".gnb > li > a").addClass("active");
+                $(".gnb_right").addClass("active");
+            }
+
+        $(".section.active").find(".inner .main_title").addClass("active");
+        $(".section.active").find(".inner .promotion-contents").addClass("active");
+        $(".section.active").find("h2").addClass("active");
+        $(".section.active").find(".filter").addClass("active");
+
     },
 	//options here
 	autoScrolling:true,
@@ -20,6 +31,10 @@ new fullpage('#fullpage', {
 
 var swiper = new Swiper(".sec1Swiper", {
     loop: true,
+    autoplay: {
+        delay: 5000, // 5초마다 슬라이드 전환
+    },
+    speed: 800,
     pagination: {
         el: ".swiper-pagination",
     },
@@ -29,12 +44,13 @@ var swiper = new Swiper(".sec1Swiper", {
             $(".swiper-slide-active").find(".mainTexts").addClass("active")
         },
         slideChange: function(e) {
-            console.log(e)
             var currentSlideIndex = e.activeIndex;
             if (currentSlideIndex == 3 || currentSlideIndex == 4) {
                 $(".gnb > li > a").addClass("active");
+                $(".gnb_right").addClass("active");
             } else {
                 $(".gnb > li > a").removeClass("active");
+                $(".gnb_right").removeClass("active");
             }			
         }
     }
@@ -45,6 +61,7 @@ var swiper = new Swiper(".sec2Swiper", {
     slidesPerView: 4,
     spaceBetween: 20,
     loop: true,
+    speed: 800,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -60,6 +77,7 @@ var swiper = new Swiper(".sec4Swiper", {
     slidesPerGroup: 4,
     spaceBetween: 30,
     loop: true,
+    speed: 800,
     loopAdditionalSlides : 4,
     navigation: {
         nextEl: ".swiper-button-next",

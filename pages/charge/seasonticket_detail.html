@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../css/charge.css">
+	<script src="../../js/charge.js"></script>
+	<script defer src="../../js/common.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<header class="header_sub"></header>
+	<main>
+		<div class="sub_common"></div>
+		<section class="inner_c detail_promt">
+			<h2>프로모션</h2>
+			<div class="titline">
+				<p>
+					<span id="descNum"></span>
+					<span id="descTitle"></span>
+				</p>
+				<span id="descDate"></span>
+			</div>
+			<!-- 이미지가 없습니다.jpg 필요 -->
+			<figure><img src="" alt="" id="descImg"></figure>
+			<div class="btn">
+				<a href="./seasonticket.html">목록으로</a>
+			</div>
+		</section>
+		<div class="side">
+			<div class="arrow">
+					<a><img src="../../asset/icon/fix_arrow.png" alt=""></a>
+			</div>
+		</div>	
+	</main>
+	<footer></footer>
+	<script>
+		fetchSsDetail();
+	</script>
+</body>
+</html>

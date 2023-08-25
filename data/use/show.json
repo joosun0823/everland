@@ -9,7 +9,8 @@
 			"date" : "6.23(금) ~ 8.27(일)",
 			"attention" : "※ 현장 상황 및 기상 예보에 따라 공연 일정이<br>변경 및 취소될 수 있습니다.<br>※ 폭염 및 우천에 따라 축소 운영될 수 있습니다.<br>※ 본 공연 관람 시 물에 젖을 수 있습니다.<br>반드시 우의를 착용하시거나<br>여벌의 옷을 챙겨와 주시기 바랍니다.<br> (별도 탈의실은 없음)<br>※ 이용정보 - 운영시간에서 공연시간 확인이 가능합니다.",
 			"time" : ["13:30", "16:30"],
-			"thumb" : "../../asset/image/use/show/use_show_img01.jpg"
+			"thumb" : "../../asset/image/use/show/use_show_img01.jpg",
+			"detail_img":"../../asset/image/use/show/USE_show_modal1.jpg"
 		},
 		{	
 			"id":"2",
@@ -20,29 +21,32 @@
 			"date" : "6.23(금) ~ 8.27(일)",
 			"attention" : "※ 현장 상황 및 기상 예보에 따라 공연 일정이<br>변경 및 취소될 수 있습니다.<br>※ 본 공연 관림 시 물에 젖을 수 있습니다.<br>반드시 우의를 착용하시거나<br>여벌의 옷을 챙겨와 주시기 바랍니다.<br>(별도 탈의실은 없음)<br>※ 이용 정보-운영시간에서 공연시간 확인 가능합니다",
 			"time" : ["13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00"],
-			"thumb" : "../../asset/image/use/show/use_show_img02.jpg"
+			"thumb" : "../../asset/image/use/show/use_show_img02.jpg",
+			"detail_img":"../../asset/image/use/show/USE_show_modal2.jpg"
 		},
 		{	
 			"id":"3",
-			"name": "EVERTOPIC - THE Origin of Everland",
+			"name": "EVERTOPIC<br>- THE Origin of Everland",
 			"desc": "에버토피아에서 펼쳐지는 레니와 친구들의 모험 이야기!<br>올여름, 밤하늘을 밝게 비출 에버랜드만의 신규 멀티미디어쇼!",
 			"desc2" : "에버토피아에서 펼쳐지는 레니와 친구들의 모험 이야기!<br>올여름, 밤하늘을 밝게 비출 에버랜드만의 신규 멀티미디어쇼!",
 			"place": "포시즌스 가든",
 			"date" : "6.23(금) ~",
 			"attention" : "※ 현장 상황 및 기상 예보에 따라 공연 일정이 변경 및 취소될 수 있습니다.<br>※ 이용 정보-운영시간에서 공연시간 확인 가능합니다.",
 			"time" : ["21:30"],
-			"thumb" : "../../asset/image/use/show/use_show_img03.jpg"
+			"thumb" : "../../asset/image/use/show/use_show_img03.jpg",
+			"detail_img":"../../asset/image/use/show/USE_show_modal3.jpg"
 		},
 		{	
 			"id":"4",
-			"name": "가든 오브 라이트 width SHINee",
+			"name": "가든 오브 라이트 with SHINee",
 			"desc": "샤이니의 신나는 명곡들과 화려한 조명이 어우러지는<br>반짝이는 라이팅 쇼!",
 			"desc2" : "샤이니의 신나는 명곡들과 화려한 조명이 어우러지는<br>반짝이는 라이팅 쇼!",
 			"place": "포시즌스 가든",
 			"date" : "8.09(수) ~ 8.27(일)",
 			"attention" : "※ 현장 상황 및 기상 예보에 따라 공연이 취소되거나 축소 운영될 수 있으며,<br>공연 일정이 변경될 수 있습니다.<br>※ 이용 정보-운영시간에서 공연시간 확인 가능합니다.",
 			"time" : ["21:00"],
-			"thumb" : "../../asset/image/use/show/use_show_img04.jpg"
+			"thumb" : "../../asset/image/use/show/use_show_img04.jpg",
+			"detail_img":"../../asset/image/use/show/USE_show_modal4.jpg"
 		},
 		{	
 			"id":"5",
@@ -53,7 +57,8 @@
 			"date" : "6.23(금) ~ 8.27(일)",	
 			"attention" : "※ 공연 관람은 “스마트줄서기”를 통해서 예약하실 수 있습니다.<br>※ 공연장 입장은 공연 시작 30분전부터 가능하며,<br>공연 시작 이후에는 입장이 불가합니다.<br>※ 본 공연은 좌석이 지정되지 않는 자유석으로 운영됩니다.<br>※ 현장 상황에 따라 공연이 취소되거나 축소 운영될 수 있으며,<br>공연 일정이 변경될 수 있습니다.<br>※ 이용 정보-운영 시간에서 공연시간 확인이 가능합니다.<br>※ 현장 운영 상황에 따라 현장줄서기로 전환될 수 있습니다.",
 			"time" : ["15:00", "17:30"],
-			"thumb" : "../../asset/image/use/show/use_show_img05.jpg"
+			"thumb" : "../../asset/image/use/show/use_show_img05.jpg",
+			"detail_img":"../../asset/image/use/show/USE_show_modal5.jpg"
 		},
 		{	
 			"id":"6",
@@ -64,7 +69,8 @@
 			"date" : "3.17(금) ~",
 			"attention" : "※ 현장 상황 및 기상 예보에 따라 공연 일정이 변경 및 취소될 수 있습니다.<br>※ 이용 정보-운영시간에서 공연시간 확인 가능합니다.",
 			"time" : ["20:30"],
-			"thumb" : "../../asset/image/use/show/use_show_img06.jpg"
+			"thumb" : "../../asset/image/use/show/use_show_img06.jpg",
+			"detail_img":"../../asset/image/use/show/USE_show_modal6.jpg"
 		},
 		{	
 			"id":"7",
@@ -74,8 +80,9 @@
 			"place": "포시즌스 가든",
 			"date" : "6.23(금) ~ 8.27(일)",
 			"attention" : "※ 현장 상황 및 기상 예보에 따라 공연 일정이 변경 및 취소될 수 있습니다.<br>※ 이용 정보-운영시간에서 공연시간 확인 가능합니다.",
+			"time":"",
 			"thumb": "../../asset/image/use/show/use_show_img07.jpg",
-			"time":null
+			"detail_img":"../../asset/image/use/show/USE_show_modal7.jpg"
 		}
 	]
 }

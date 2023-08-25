@@ -23,7 +23,7 @@ $(window).on("load", function(){
 				let depth02 = $(this).parent().parent().html(); // depth02
 				let this_tit = $(this).text(); // 현재페이지 타이틀
 				
-				$('.sub_common .sub_visual').css("background-image", "url('../../asset/common/image/sub_visual" + idx + ".jpg')");
+				$('.sub_common .sub_visual').css("background-image", "url('../../asset/image/common/sub_visual" + idx + ".jpg')");
 				$('.sub_common .sub_visual .txt_box h2').html( title );
 				$('.sub_common .sub_tab .depth01 p span').html( title );
 				$('.sub_common .sub_tab .depth02 p span').html( this_tit );
@@ -41,8 +41,6 @@ $(window).on("load", function(){
 				$(this).parent().find(">ul").slideUp("fast");
 			}
 		});
-		
-
 	}, 100);
 });
 

@@ -61,7 +61,6 @@ const fetchPromo = function() {
 	.then(data => {
 		const promotion = document.querySelector(".promotion");
 		data.프로모션.forEach(function (v, k) {
-			// console.log(data.프로모션);
 			promotion.innerHTML += `
 								<li>
 									<a href="./promotion_detail.html?num=${v.id}">
@@ -79,7 +78,7 @@ const fetchPromo = function() {
 	})
 }
 
-//promotion_detail.html
+// promotion_detail.html
 const fetchProDetail = function() {
 	const paramsNum = getParams().num;
 	
@@ -87,19 +86,14 @@ const fetchProDetail = function() {
 	.then(res => res.json())
 	.then(data => {
 		const promotion = document.querySelector(".promotion");
-		// data.
 		const resData = data.프로모션.filter((e) => {
-			// console.log(e);
 			if(paramsNum == e.id) {
-				console.log(e);
-				console.log($('#descNum'))
 				document.querySelector('#descNum').innerText = e.id;
 				document.querySelector('#descTitle').innerText = e.name;
 				document.querySelector('#descDate').innerText = e.date;
 				document.querySelector('#descImg').src = e.detail_img;
 			} 
 		})
-		// console.log(resData);
 	})
 }
 
@@ -110,16 +104,36 @@ const fetchSeason = function() {
 	.then(data => {
 		const seasonpromt = document.querySelector(".season_promt");
 		data.정기권프로모션.forEach(function (v, k) {
-			// console.log(data.정기권프로모션);
 			seasonpromt.innerHTML += `
 				<li>
-						<figure><img src="${v.thumb}" alt=""></figure>
+					<a href="./seasonticket_detail.html?num=${v.id}">
+						<figure>
+								<img src="${v.thumb}" alt="">
+						</figure>
 						<div>
 								<span>${v.date}</span>
 								<b>${v.name}</b>
-								
 						</div>
+					</a>
 				</li>` ;
+			})
+	})
+}
+// seasonticket_detail.html
+const fetchSsDetail = function() {
+	const paramsNum = getParams().num;
+	
+	fetch("../../data/charge/seasonticket.json")
+	.then(res => res.json())
+	.then(data => {
+		const season = document.querySelector(".season_promt");
+		const resData = data.정기권프로모션.filter((e) => {
+			if(paramsNum == e.id) {
+				document.querySelector('#descNum').innerText = e.id;
+				document.querySelector('#descTitle').innerText = e.name;
+				document.querySelector('#descDate').innerText = e.date;
+				document.querySelector('#descImg').src = e.detail_img;
+			} 
 		})
 	})
 }
