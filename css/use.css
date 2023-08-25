@@ -64,7 +64,7 @@ main .rest_area .rest {
   margin: 10px;
 }
 main .rest_area .rest .rest_img {
-  background-image: url("../../asset/image/enjoy/ENJOY_view05.jpg");
+  background-image: url("../asset/image/enjoy/ENJOY_view05.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ main .warning {
 main .warning .warning_img {
   width: 50px;
   height: 50px;
-  background-image: url("../../asset/icon/warning.png");
+  background-image: url("../asset/icon/warning.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

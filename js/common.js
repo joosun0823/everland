@@ -3,7 +3,7 @@ $('#header-section').load('./common/header.html .header>.inner_h');
 $('#fullpage footer').load('./common/footer.html .main_footer>.inner_c');
 $('body .header_sub').load('../../common/header.html .header_sub>.inner_h');
 $('.sub_common').load('../../common/header.html .sub_common');
-$('body footer').load('../../common/footer.html footer>.inner_c');
+$('body footer').load('../../common/footer.html .footer_sub>.inner_c');
 
 $(window).on("load", function(){
 	let url = window.location.pathname;
