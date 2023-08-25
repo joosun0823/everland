@@ -1,8 +1,9 @@
 // header & footer
-$('body #header-section').load('./common/header.html .header_sub>.inner_h');
 $('body .header_sub').load('../../common/header.html .header_sub>.inner_h');
+$('#fullpage #header-section').load('./common/header.html .header_sub>.inner_h');
 $('.sub_common').load('../../common/header.html .sub_common');
 $('body footer').load('../../common/footer.html footer>.inner_c');
+$('#fullpage footer').load('./common/footer.html footer>.inner_c');
 
 $(window).on("load", function(){
 	let url = window.location.pathname;
