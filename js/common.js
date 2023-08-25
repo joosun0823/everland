@@ -1,5 +1,5 @@
 // header & footer
-$('#header-section').load('./common/header.html .header_sub>.inner_h');
+$('#header-section').load('./common/header.html .header>.inner_h');
 $('#fullpage footer').load('./common/footer.html .main_footer>.inner_c');
 $('body .header_sub').load('../../common/header.html .header_sub>.inner_h');
 $('.sub_common').load('../../common/header.html .sub_common');
@@ -12,13 +12,13 @@ $(window).on("load", function(){
 	setTimeout(() => {
 		// sub_common
 		// depth01 리스트 부분
-		$(".header_sub .gnb > li > a").each(function() {
+		$("header .gnb > li > a").each(function() {
 			let title = $(this).text(); // depth01 타이틀
 			let link = $(this).attr('href'); // depth01 링크
 			$('.sub_common .sub_tab .depth01 ul').append('<li><a href="' + link + '">' + title + '</a></li>');
 		});
 		// sub_common 텍스트
-		$(".header_sub .gnb li ul li a").each(function() {
+		$("header .gnb li ul li a").each(function() {
 			if ( $(this).attr("href") == url ){
 				let idx = $(this).parent().parent().parent().index();
 				let title = $(this).parent().parent().parent().find('>a').text(); // depth01 타이틀
