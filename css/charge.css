@@ -28,7 +28,7 @@ main .card_content .tab_menu .tabkey.active {
 }
 main .card_content p {
   width: 100%;
-  border-bottom: 2px solid #999;
+  border-bottom: 2px solid #ddd;
   margin: 40px 0;
 }
 main .card_content .card_list {
@@ -293,7 +293,7 @@ main .seasonprom > .season_promt > li div p {
   align-items: center;
   margin: 10px auto;
 }
-.header_sub {
+header {
   width: 100%;
   height: 100px;
   position: relative;
@@ -301,32 +301,32 @@ main .seasonprom > .season_promt > li div p {
   background-color: #fff;
   transition: all 0.3s;
 }
-.header_sub .gnb_wrap {
+header .gnb_wrap {
   position: relative;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header_sub .logo {
+header .logo {
   position: absolute;
   z-index: 301;
 }
-.header_sub .logo a {
+header .logo a {
   width: 120px;
   display: inline-block;
 }
-.header_sub .logo img {
+header .logo img {
   width: 100%;
 }
-.header_sub .gnb {
+header .gnb {
   width: auto;
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
-.header_sub .gnb > li > a {
+header .gnb > li > a {
   display: flex;
   align-items: center;
   height: 100%;
@@ -335,27 +335,27 @@ main .seasonprom > .season_promt > li div p {
   font-size: 1.8rem;
   font-weight: bold;
 }
-.header_sub .gnb .depth02 {
+header .gnb .depth02 {
   display: none;
 }
-.header_sub .gnb_right {
+header .gnb_right {
   position: absolute;
   right: 18px;
   z-index: 301;
   display: flex;
   align-items: center;
 }
-.header_sub .gnb_right > a {
+header .gnb_right > a {
   font-size: 1.4rem;
   margin-right: 20px;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn {
+header .gnb_right .menu_btn_wrap .menu_btn {
   width: 30px;
   height: 38px;
   position: relative;
   display: block;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn .line {
+header .gnb_right .menu_btn_wrap .menu_btn .line {
   position: absolute;
   right: 0;
   top: 45%;
@@ -365,27 +365,27 @@ main .seasonprom > .season_promt > li div p {
   margin: 2px 0;
   transition: 0.5s;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn .line:nth-of-type(1) {
+header .gnb_right .menu_btn_wrap .menu_btn .line:nth-of-type(1) {
   transform: translateY(-500%);
   width: 100%;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn .line:nth-of-type(2) {
+header .gnb_right .menu_btn_wrap .menu_btn .line:nth-of-type(2) {
   width: 70%;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn .line:nth-of-type(3) {
+header .gnb_right .menu_btn_wrap .menu_btn .line:nth-of-type(3) {
   transform: translateY(500%);
   width: 100%;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn.active .line:nth-of-type(1) {
+header .gnb_right .menu_btn_wrap .menu_btn.active .line:nth-of-type(1) {
   transform: rotate(135deg);
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn.active .line:nth-of-type(2) {
+header .gnb_right .menu_btn_wrap .menu_btn.active .line:nth-of-type(2) {
   opacity: 0;
 }
-.header_sub .gnb_right .menu_btn_wrap .menu_btn.active .line:nth-of-type(3) {
+header .gnb_right .menu_btn_wrap .menu_btn.active .line:nth-of-type(3) {
   transform: rotate(-135deg);
 }
-.header_sub .header_open_wrap {
+header .header_open_wrap {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.4s, visibility 0.4s;
@@ -400,15 +400,15 @@ main .seasonprom > .season_promt > li div p {
   justify-content: flex-start;
   align-items: center;
 }
-.header_sub .header_open_wrap.open {
+header .header_open_wrap.open {
   visibility: visible;
   opacity: 1;
 }
-.header_sub .header_open_wrap .open_bg {
+header .header_open_wrap .open_bg {
   width: 35%;
   height: 100%;
 }
-.header_sub .header_open_wrap .open_bg::after {
+header .header_open_wrap .open_bg::after {
   display: block;
   width: 100%;
   height: 100%;
@@ -417,22 +417,22 @@ main .seasonprom > .season_promt > li div p {
   background-repeat: no-repeat;
   background-position: center;
 }
-.header_sub .header_open_wrap .inner_open {
+header .header_open_wrap .inner_open {
   padding: 0 10% 0 6%;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb {
+header .header_open_wrap .inner_open .open_gnb {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   width: auto;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list {
+header .header_open_wrap .inner_open .open_gnb .gnb_list {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list > a {
+header .header_open_wrap .inner_open .open_gnb .gnb_list > a {
   font-size: 4rem;
   font-weight: 500;
   text-align: left;
@@ -440,29 +440,29 @@ main .seasonprom > .season_promt > li div p {
   padding-right: 50px;
   transition: color 0.4s;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 {
+header .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 {
   display: flex;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 li > a {
+header .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 li > a {
   font-size: 2rem;
   color: #6d6d7e;
   padding: 5px 0;
   transition: color 0.4s, border 0.4s;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 > li:not(:last-child) {
+header .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 > li:not(:last-child) {
   margin-right: 30px;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 li:hover > a {
+header .header_open_wrap .inner_open .open_gnb .gnb_list .depth02 li:hover > a {
   border-bottom: solid 1px #31313f;
   color: #31313f;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb .gnb_list:hover > a {
+header .header_open_wrap .inner_open .open_gnb .gnb_list:hover > a {
   color: #004EA1;
 }
-.header_sub .header_open_wrap .inner_open .open_gnb > li:not(:last-child) {
+header .header_open_wrap .inner_open .open_gnb > li:not(:last-child) {
   margin-bottom: 45px;
 }
 

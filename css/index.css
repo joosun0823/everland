@@ -682,12 +682,14 @@ html {
 }
 .section2 .inner .main_title strong {
   font-size: 5rem;
+  font-weight: bold;
   transition: 1s;
   transform: translateY(100%);
   opacity: 0%;
 }
 .section2 .inner .main_title p {
   margin: 5% 0;
+  line-height: 1.5;
   font-size: 1.7rem;
   transition: 1s;
   transform: translateY(100%);
@@ -819,11 +821,8 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  z-index: 100;
-}
-.section3.active .filter.active::after {
   background-color: rgba(0, 0, 0, 0.322);
+  z-index: 100;
 }
 .section3.active h2.active {
   color: rgb(255, 255, 255);
@@ -869,14 +868,16 @@ html {
 }
 .section3 .inner .promotion-contents .pages > strong {
   font-size: 1.3rem;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .section3 .inner .promotion-contents .pages > b {
   font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 .section3 .inner .promotion-contents .pages > p {
-  font-size: 1.3rem;
-  margin-bottom: 50px;
+  font-size: 1.6rem;
+  margin-bottom: 100px;
 }
 .section3 .inner .promotion-contents .pages > a {
   font-size: 2rem;
@@ -891,9 +892,10 @@ html {
 }
 .section4 .inner a {
   font-size: 2rem;
-  border: 2px solid yellow;
+  color: white;
+  background-color: #7fcff4;
   border-radius: 30px;
-  padding: 1%;
+  padding: 1% 2%;
 }
 .section4 .inner .swiper {
   width: 100%;
@@ -911,6 +913,8 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transform: translateY(0%);
+  transition: 1s;
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide::after {
   content: "";
@@ -922,6 +926,9 @@ html {
   border-radius: 5%;
   background-color: rgba(0, 0, 0, 0.39);
 }
+.section4 .inner .swiper .swiper-wrapper .swiper-slide:hover {
+  transform: translateY(-30%);
+}
 .section4 .inner .swiper .swiper-wrapper .swiper-slide > p {
   font-size: 2rem;
   margin-bottom: 20px;
@@ -929,136 +936,144 @@ html {
   z-index: 100;
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att1 {
-  background-image: url(../asset/image/enjoy/euro_1.jpg);
+  background-image: url(../asset/image/enjoy/ENJOY_attract_thumb32.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att2 {
-  background-image: url(../asset/image/enjoy/euro_2.jpg);
+  background-image: url(../asset/image/enjoy/ENJOY_attract_thumb35.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att3 {
-  background-image: url(../asset/image/enjoy/zoo_1.jpg);
+  background-image: url(../asset/image/enjoy/enjoy_z_9.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att4 {
-  background-image: url(../asset/image/enjoy/american_3.jpg);
+  background-image: url(../asset/image/enjoy/ENJOY_attract_thumb4.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att5 {
-  background-image: url(../asset/image/enjoy/zoo_2.jpg);
+  background-image: url(../asset/image/enjoy/enjoy_z_10.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att6 {
-  background-image: url(../asset/image/enjoy/american_4.jpg);
+  background-image: url(../asset/image/enjoy/ENJOY_attract_thumb5.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att7 {
-  background-image: url(../asset/image/enjoy/magic_1.jpg);
+  background-image: url(../asset/image/enjoy/ENJOY_attract_thumb13.jpg);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide.att8 {
-  background-image: url(../asset/image/enjoy/zoo_3.jpg);
+  background-image: url(../asset/image/enjoy/enjoy_z_8.jpg);
 }
 
 .section5 {
-  background-color: rgb(110, 214, 255);
+  background-color: #7FCFF4;
 }
 .section5 .inner {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.section5 .inner .grid {
-  width: 80%;
-  height: 500px;
+.section5 .inner > .grid {
+  height: 600px;
+  width: 100%;
+  gap: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
 }
-.section5 .inner .grid > div {
-  background-color: rgb(245, 245, 245);
+.section5 .inner > .grid > div {
+  background-color: rgb(255, 255, 255);
 }
-.section5 .inner .grid .info {
-  width: 58%;
+.section5 .inner > .grid .info {
+  border-radius: 20px;
+  width: 48.5%;
   display: flex;
-  height: 50%;
+  height: 45%;
 }
-.section5 .inner .grid .info > figure {
+.section5 .inner > .grid .info > figure {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 40%;
 }
-.section5 .inner .grid .info > figure img {
+.section5 .inner > .grid .info > figure img {
   width: 100%;
 }
-.section5 .inner .grid .info > .infoText {
+.section5 .inner > .grid .info > .infoText {
   width: 60%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
 }
-.section5 .inner .grid .info > .infoText p {
+.section5 .inner > .grid .info > .infoText p {
   margin-left: 20%;
   font-size: 1.6rem;
   margin-bottom: 10px;
 }
-.section5 .inner .grid .info > .infoText p:nth-of-type(3) {
+.section5 .inner > .grid .info > .infoText p:nth-of-type(3) {
   margin-top: 10px;
   font-size: 3rem;
 }
-.section5 .inner .grid .info > .infoText p:nth-of-type(4) {
-  font-size: 5rem;
+.section5 .inner > .grid .info > .infoText p:nth-of-type(4) {
+  font-size: 4rem;
   font-weight: 800;
 }
-.section5 .inner .grid .weather {
-  width: 38%;
-  height: 50%;
+.section5 .inner > .grid .weather {
+  border-radius: 20px;
+  width: 48.5%;
+  height: 45%;
 }
-.section5 .inner .grid .weather .inner {
+.section5 .inner > .grid .weather .wInner {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section5 .inner .grid .weather .inner .weatherIcon {
-  background-color: rgb(206, 206, 206);
+.section5 .inner > .grid .weather .wInner .weatherIcon {
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 230px;
+  height: 230px;
   border-radius: 100%;
   margin: 0 5%;
 }
-.section5 .inner .grid .weather .inner .weatherIcon img {
+.section5 .inner > .grid .weather .wInner .weatherIcon img {
   width: 50%;
 }
-.section5 .inner .grid .weather .inner .weatherText {
-  width: 60%;
+.section5 .inner > .grid .weather .wInner .weatherText {
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
-.section5 .inner .grid .weather .inner .weatherText span {
+.section5 .inner > .grid .weather .wInner .weatherText span {
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
-.section5 .inner .grid .weather .inner .weatherText span.wText1 {
+.section5 .inner > .grid .weather .wInner .weatherText span.wText1 {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.section5 .inner > .grid .weather .wInner .weatherText span.wText2 {
   font-size: 2rem;
 }
-.section5 .inner .grid .weather .inner .weatherText span.wText2 {
+.section5 .inner > .grid .weather .wInner .weatherText span.wText3 {
   font-size: 2rem;
 }
-.section5 .inner .grid .weather .inner .weatherText span.wText3 {
-  font-size: 2rem;
-}
-.section5 .inner .grid .list {
-  width: 48%;
-  height: 40%;
+.section5 .inner > .grid .list {
+  border-radius: 20px;
+  width: 48.5%;
+  height: 45%;
   background-image: url(../asset/image/main/sec5_youtube.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.section5 .inner .grid .pic {
-  width: 48%;
-  height: 40%;
+.section5 .inner > .grid .pic {
+  border-radius: 20px;
+  width: 48.5%;
+  height: 45%;
   background-image: url(../asset/image/main/sec5_app.png);
   background-repeat: no-repeat;
   background-size: cover;
