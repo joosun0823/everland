@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/charge.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="../../js/charge.js"></script>
+	<script defer src="../../js/common.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<header class="header_sub"></header>
+	<main>
+		<div class="sub_common"></div>
+		<section class="inner_c seasonticket">
+			<h2>정기권</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>구분</th>
+						<th>365 <br> 스탠다드</th>
+						<th>350 <br> 스탠다드</th>
+						<th>320 <br> 셀렉트</th>
+						<th>250 <br> 위크데이</th>
+						<th>365 <br> 시니어</th>
+						<th>365 <br> 베이비</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>이용가능일</td>
+						<td>1년 365일</td>
+						<td>1년 중극성수기<br>제외약 350일</td>
+						<td>1년 중성수기 제외<br>약 320여일 </td>
+						<td>1년 중<br>주말/공휴일/<br>샌드위치데이제외<br>평일 약 250일</td>
+						<td>1년 365일</td>
+						<td>1년 365일 </td>
+					</tr>
+					<tr>
+						<td>신규 가입 요금</td>
+						<td>대인 29만원<br>소인 23만원</td>
+						<td>대인 24만원<br>소인 19만원</td>
+						<td>대인 19만원<br>소인 15만원</td>
+						<td>대인 14만원<br>소인 11만원</td>
+						<td>13만원</td>
+						<td>9만원 </td>
+					</tr>
+					<tr>
+						<td>만기 후 1년 이내<br>재가입 시 요금</td>
+						<td>대인 24만원<br>소인 18만원</td>
+						<td>대인 19만원<br>소인 14만원</td>
+						<td colspan="2">동일 권종<br>신규 요금 가입 또는<br>365/350 스탠다드 권종으로<br>재가입 가능 </td>
+						<td>13만원</td>
+						<td>다른 권종으로만<br>재가입 가능 </td>
+					</tr>
+					<tr>
+						<td>연령기준 </td>
+						<td colspan="4">대인 만 13세~ 만 59세,<br>소인 만 3세 ~ 만 12세<br>※ 정기권 시작일자 기준 </td>
+						<td>만 60세<br>이상</td>
+						<td>24개월 ~ 35개월<br>※36개월 생일<br>전날까지만<br>발급(=시작) 가능</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="advice">
+◎ 가입안내
+
+※ 입장 제한일이 있는 권종은, 입장 제한일에 방문할 경우 매표소에서 정기권과 신분증을 제시하시고 1일 이용권을 해당일자의 정상금액에서 40% 할인하여 구입하실 수 있습니다.
+
+※ 365시니어/365베이비 가입 시 주의사항
+ㆍ 가입 대상임을 증명할 수 있는 증빙서류 제출 필수(스마트예약 결제 시 + 현장방문 결제 선택 필수)
+ㆍ 베이비 확인 서류: 주민등록등본, 건강보험증
+ㆍ시니어 확인 서류: 주민등록등본, 자동차 운전 면허증, 여권
+	단, 재가입시에는 스마트예약에서 별도 확인없이 가입 가능
+
+ㆍ 베이비패스는 생애 1회 한해 가입 가능하며, 만기 이전 해지할 경우 해당 권종으로 재가입은 불가합니다.
+
+※ 유아이용권: 6,000원(붕붕카, 로보트카, 자동차왕국 모두 이용 가능)
+
+※ 대인요금은 청소년과 통합하며, 청소년 대상 프로모션은 '요금&프로모션>스페셜 프로모션' 참조
+
+※ 장애인 우대 (장애인등록증 제시)
+ㆍ 장애의 정도가 심한 장애인
+	본인 : 우대가 적용
+	동반인 : 우대가 적용 (최대1명까지)
+
+ㆍ 장애의 정도가 심하지 않은 장애인
+	본인 : 우대가 적용
+			</p>
+		</section>
+		<section class="inner_c promt_list seasonprom">
+			<h2>할인/프로모션 안내</h2>
+			<ul class="season_promt"></ul>
+		</section>
+		<div class="side">
+			<div class="arrow">
+					<a><img src="../../asset/icon/fix_arrow.png" alt=""></a>
+			</div>
+		</div>	
+	</main>
+	<footer></footer>
+	<script>
+		fetchSeason();
+	</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "정기권프로모션": [
+  {
+    "id" : "7",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion01.jpg",
+    "name" : "슈퍼 8월 가입 프로모션 \n <br> 캐리비안베이 이용권",
+    "date" : "2023.08.04",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion01-1.jpg"    
+  },
+  {
+    "id" : "6",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion02.jpg",
+    "name" : "정기권 1+N 쌍둥이 특별 가입 이벤트",
+    "date" : "2023.07.25",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion02-1.jpg"    
+  },
+  {
+    "id" : "5",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion03.jpg",
+    "name" : "7월 정기권 가입 스마트예약 혜택",
+    "date" : "2023.06.30",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion03-1.jpg"    
+  },
+  {
+    "id" : "4",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion04.jpg",
+    "name" : "에버랜드 정기권 신규 권종 출시 안내",
+    "date" : "2023.06.14",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion04-1.jpg"    
+  },
+  {
+    "id" : "3",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion05.jpg",
+    "name" : "6개월권 발급 종료",
+    "date" : "2023.05.30",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion05-1.jpg"    
+  },
+  {
+    "id" : "2",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion06.jpg",
+    "name" : "에버랜드 정기권 여름방학 시즌권",
+    "date" : "2023.05.30",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion06-1.jpg"    
+  },
+  {
+    "id" : "1",
+    "thumb" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion07.jpg",
+    "name" : "사랑단 가입자 정기권 할인 안내",
+    "date" : "2022.04.07",
+    "detail_img" : "../../asset/image/charge/seasonpromotion/CHARGE_promotion07-1.jpg"    
+  }
+  ]
+}

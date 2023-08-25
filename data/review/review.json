@@ -1,0 +1,340 @@
+{
+  "리뷰": [
+    {
+      "id": "42",
+      "title" : "방문후기",
+      "name": "전*빈",
+      "detail_img": "../../asset/image/review/REVIEW_list_01.png",
+      "date": "2023-08-13",
+      "decs": "너무 재미있어요"
+    },
+    {
+      "id": "41",
+      "title" : "아이와 좋은시간",
+      "name": "0103****102",
+      "detail_img": "../../asset/image/review/REVIEW_list_02.png",
+      "date": "2023-08-13",
+      "decs": "아이와 정말 즐거운 시간을 보내고 와서 행복한 하루였습니다~ 다음에 또 방문하겠습니다"
+    },
+    {
+      "id": "40",
+      "title" : "즐거운 나들이",
+      "name": "최*호",
+      "detail_img": "../../asset/image/review/REVIEW_list_03.png",
+      "date": "2023-08-13",
+      "decs": "아들과 함께 즐거운 시간을 보냈습니다 연간이라 자주 들리는중이지만 항상 신나하는 아들을 보며 크나큰 기쁨을 느끼네요 항상 예쁘고 신나는 놀이동산으로 기억될듯 싶습니다"
+    },
+    {
+      "id": "39",
+      "title" : "방문후기",
+      "name": "김*승",
+      "detail_img": "../../asset/image/review/REVIEW_list_04.png",
+      "date": "2023-08-13",
+      "decs": "매번 1년에 10번 정도는 기본으로 가는 사람인데 항상 갈때마다 기대 이상으로 재밌고 놀이기구를 탈려고 줄을 서도 지루하지 않고 재밌어요!!"
+    },
+    {
+      "id": "38",
+      "title" : "첫 나들이",
+      "name": "이*영",
+      "detail_img": "../../asset/image/review/REVIEW_list_05.png",
+      "date": "2023-08-13",
+      "decs": "너무너무 행복한 하루였어요~"
+    },
+    {
+      "id": "37",
+      "title" : "유투브로만 보던 푸바오",
+      "name": "박*현",
+      "detail_img": "../../asset/image/review/REVIEW_list_06.png",
+      "date": "2023-08-13",
+      "decs": "푸바오가 너무 귀여워요~"
+    },
+    {
+      "id": "36",
+      "title" : "후기",
+      "name": "김*현",
+      "detail_img": "../../asset/image/review/REVIEW_list_07.png",
+      "date": "2023-08-13",
+      "decs": "너무 좋은날 보냈어요"
+    },
+    {
+      "id": "35",
+      "title" : "날씨가 좋았서 더 즐거워요",
+      "name": "이*선",
+      "detail_img": "../../asset/image/review/REVIEW_list_08.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "34",
+      "title" : "츄러스 맛집",
+      "name": "이*은",
+      "detail_img": "../../asset/image/review/REVIEW_list_09.png",
+      "date": "2023-08-13",
+      "decs": "츄러스 꼭 드세요 정말맜있어요😋"
+    },
+    {
+      "id": "33",
+      "title" : "즐거워요",
+      "name": "김*현",
+      "detail_img": "../../asset/image/review/REVIEW_list_10.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "32",
+      "title" : "방학이라 친구들이랑 다같이 놀러왔어요",
+      "name": "임*훈",
+      "detail_img": "../../asset/image/review/REVIEW_list_11.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "31",
+      "title" : "퍼레이드가 너무 멋있어요",
+      "name": "0109****122",
+      "detail_img": "../../asset/image/review/REVIEW_list_12.png",
+      "date": "2023-08-13",
+      "decs": " 여름방학끝나기전에 추억쌓기 성공!!"
+    },
+    {
+      "id": "30",
+      "title" : "노을 맛집",
+      "name": "임*선",
+      "detail_img": "../../asset/image/review/REVIEW_list_13.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "29",
+      "title" : "주토피아",
+      "name": "박*원",
+      "detail_img": "../../asset/image/review/REVIEW_list_14.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "28",
+      "title" : "날씨가 좋아서 더 즐거웠던 하루",
+      "name": "이*숙",
+      "detail_img": "../../asset/image/review/REVIEW_list_15.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "27",
+      "title" : "너무 귀여워요",
+      "name": "0102****258",
+      "detail_img": "../../asset/image/review/REVIEW_list_16.png",
+      "date": "2023-08-13",
+      "decs": "즐거웠어요!"
+    },
+    {
+      "id": "26",
+      "title" : "멋있어요",
+      "name": "김*우",
+      "detail_img": "../../asset/image/review/REVIEW_list_17.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "25",
+      "title" : "츄러스 맛집",
+      "name": "강*구",
+      "detail_img": "../../asset/image/review/REVIEW_list_18.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "24",
+      "title" : "첫 방문후기",
+      "name": "0104****200",
+      "detail_img": "../../asset/image/review/REVIEW_list_19.png",
+      "date": "2023-08-13",
+      "decs": "너무 좋은날 보냈어요"
+    },
+    {
+      "id": "23",
+      "title" : "관람차타고 야경이 너무 예뻐요",
+      "name": "김*경",
+      "detail_img": "../../asset/image/review/REVIEW_list_20.png",
+      "date": "2023-08-13",
+      "decs": "주말이라 사람이 너무 많을까 걱정했지만 놀이기구도 8개나타고 잘놀았어요^^"
+    },
+    {
+      "id": "22",
+      "title" : "노을 맛집",
+      "name": "정*지",
+      "detail_img": "../../asset/image/review/REVIEW_list_21.png",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "21",
+      "title" : "귀여원 기린",
+      "name": "정*호",
+      "detail_img": "../../asset/image/review/REVIEW_list_22.jpg",
+      "date": "2023-08-13",
+      "decs": "정말 신나는 시간이었어요 어느정도의 기다림을 예상하신다면 아이들이 짓는 미소에 기다림의 속상함이 묻히기도 한답니다"
+    },
+    {
+      "id": "20",
+      "title" : "방문후기",
+      "name": "이*진",
+      "detail_img": "../../asset/image/review/REVIEW_list_23.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "19",
+      "title" : "최고의 방학",
+      "name": "0103****889",
+      "detail_img": "../../asset/image/review/REVIEW_list_24.jpg",
+      "date": "2023-08-13",
+      "decs": "퍼레이드가 재미있었어요!!"
+    },
+    {
+      "id": "18",
+      "title" : "퍼레이드가 너무 멋있어요",
+      "name": "전*욱",
+      "detail_img": "../../asset/image/review/REVIEW_list_25.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "17",
+      "title" : "푸바오 너무 귀여워",
+      "name": "윤*심",
+      "detail_img": "../../asset/image/review/REVIEW_list_26.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "16",
+      "title" : "방문후기",
+      "name": "0108****103",
+      "detail_img": "../../asset/image/review/REVIEW_list_27.jpg",
+      "date": "2023-08-13",
+      "decs": "퍼레이드가 재밌어요"
+    },
+    {
+      "id": "15",
+      "title" : "에버랜드~",
+      "name": "안*휘",
+      "detail_img": "../../asset/image/review/REVIEW_list_28.jpg",
+      "date": "2023-08-13",
+      "decs": "가족과 함께 즐겁고 행복한 추억 만들고 왔어요😊"
+    },
+    {
+      "id": "14",
+      "title" : "퍼레이드가 너무 멋있어요",
+      "name": "이*연",
+      "detail_img": "../../asset/image/review/REVIEW_list_29.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "13",
+      "title" : "귀여원 기린",
+      "name": "김*원",
+      "detail_img": "../../asset/image/review/REVIEW_list_30.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "12",
+      "title" : "귀여원 기린",
+      "name": "황*희",
+      "detail_img": "../../asset/image/review/REVIEW_list_31.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "11",
+      "title" : "귀여원 기린",
+      "name": "이*석",
+      "detail_img": "../../asset/image/review/REVIEW_list_32.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "10",
+      "title" : "귀여원 기린",
+      "name": "0107****126",
+      "detail_img": "../../asset/image/review/REVIEW_list_33.jpg",
+      "date": "2023-08-13",
+      "decs": "태풍오고 비가 와도 즐거운하루"
+    },
+    {
+      "id": "9",
+      "title" : "귀여원 기린",
+      "name": "유*민",
+      "detail_img": "../../asset/image/review/REVIEW_list_34.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "8",
+      "title" : "귀여원 기린",
+      "name": "김*정",
+      "detail_img": "../../asset/image/review/REVIEW_list_35.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "7",
+      "title" : "귀여원 기린",
+      "name": "강*구",
+      "detail_img": "../../asset/image/review/REVIEW_list_36.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "6",
+      "title" : "귀여원 기린",
+      "name": "허*온",
+      "detail_img": "../../asset/image/review/REVIEW_list_37.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "5",
+      "title" : "귀여원 기린",
+      "name": "이*주",
+      "detail_img": "../../asset/image/review/REVIEW_list_38.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "4",
+      "title" : "귀여원 기린",
+      "name": "홍*현",
+      "detail_img": "../../asset/image/review/REVIEW_list_39.jpg",
+      "date": "2023-08-13",
+      "decs": "비가 와도 즐거운 에버랜드"
+    },
+    {
+      "id": "3",
+      "title" : "귀여원 기린",
+      "name": "김*경",
+      "detail_img": "../../asset/image/review/REVIEW_list_40.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "2",
+      "title" : "귀여원 기린",
+      "name": "김*경",
+      "detail_img": "../../asset/image/review/REVIEW_list_41.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    },
+    {
+      "id": "1",
+      "title" : "귀여원 기린",
+      "name": "임*선",
+      "detail_img": "../../asset/image/review/REVIEW_list_42.jpg",
+      "date": "2023-08-13",
+      "decs": ""
+    }
+  ]
+}

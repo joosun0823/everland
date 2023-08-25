@@ -1,0 +1,252 @@
+{
+	"프로모션": [
+		{
+			"id":1,
+			"name": "삼성증권X모니모 가입 시 대인 54% 우대",
+			"date": "07.10 ~ 08.31",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb01.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail01.jpg"
+		},
+		{	
+			"id":2,
+			"name": "기아 기아멤버스 3만포인트 사용 혜택",
+			"date": "06.10 ~ 08.31",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb02.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail26.JPG"
+		},
+		{
+			"id":3,
+			"name": "현대자동차 블루멤버스 3만포인트 사용 혜택",
+			"date": "06.10 ~ 08.31 ",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb03.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail31.JPG"
+		},
+		{
+			"id":4,
+			"name": "현대M포인트 50%~90% 사용 혜택",
+			"date": "06.10 ~ 08.31",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb04.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail29.JPG"
+		},
+		{
+			"id":5,
+			"name": "아시아나 마일리지 사용 우대",
+			"date": "04.01 ~ 10.31",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb05.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail30.JPG"
+		},
+		{
+			"id":6,
+			"name": "KT 멤버십 전회원 40% 현장우대",
+			"date": "06.10 ~ 08.31",
+			"attention": "현장우대",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb06.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail27.JPG"
+		},
+		{
+			"id":7,
+			"name": "LG U+ 멤버십 여행콕 40% 현장우대",
+			"date": "04.01 ~ 08.31",
+			"attention": "현장우대",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb07.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail28.JPG"
+		},
+		{
+			"id":8,
+			"name": "홈페이지 신규가입 특별 우대",
+			"date": "~ 08.31",
+			"attention": "스마트예약",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb08.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail02.jpg"
+		},
+		{
+			"id":9,
+			"name": "바오 패밀리 패키지",
+			"date": "07.28 ~ 08.31",
+			"attention": "스마트예약 전용",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb09.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail03.jpg"
+		},
+		{
+			"id":10,
+			"name": "아마존 가족 패키지",
+			"date": "~ 08.31",
+			"attention": "스마트예약 전용",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb10.png",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail04.jpg"
+		},
+		{
+			"id":11,
+			"name": "워터 스텔라 컬러배틀",
+			"date": "08.05 / 08.06 / 08.12 / 08.13",
+			"attention": "스마트예약 전용",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb11.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail05.jpg"
+		},
+		{
+			"id":12,
+			"name": "한 여름밤의 반딧불이 패키지",
+			"date": "06.23 ~ 08.27",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb12.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail06.jpg"
+		},
+		{
+			"id":13,
+			"name": "여름방학 휴가 패키지",
+			"date": "08.01 ~ 08.18",
+			"attention": "스마트예약 전용",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb13.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail07.jpg"
+		},
+		{
+			"id":14,
+			"name": "생일자 우대혜택",
+			"date": "~ 23.12.31",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb14.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail08.jpg"
+		},
+		{
+			"id":15,
+			"name": "에버랜드 감성교복 패키지",
+			"date": "~ 08.31",
+			"attention": "스마트예약",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb15.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail09.jpg"
+		},
+		{
+			"id":16,
+			"name": "에버랜드 오후권 (15시 입장)",
+			"date": "~ 08.31",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb16.png",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail10.jpg"
+		},
+		{
+			"id":17,
+			"name": "키즈 패키지 2인권",
+			"date": "~ 08.31",
+			"attention": "스마트예약 / 현장결제",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb17.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail11.jpg"
+		},
+		{
+			"id":18,
+			"name": "에버랜드 2인/3인/4인 세트권",
+			"date": "~ 08.31",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb18.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail12.jpg"
+		},
+		{
+			"id":19,
+			"name": "문화누리카드 우대",
+			"date": "03.01 ~ 12.31",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb19.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail13.jpg"
+		},
+		{
+			"id":20,
+			"name": "군인 간부 50% 특 우대",
+			"date": "~ 09.30",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb20.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail14.jpg"
+		},
+		{
+			"id":21,
+			"name": "Thank u 휴가 군인 무료",
+			"date": "~ 09.30",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb21.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail15.jpg"
+		},
+		{
+			"id":22,
+			"name": "어트랙션 도장깨기",
+			"date": "~ 08.31",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb22.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail16.jpg"
+		},
+		{
+			"id":23,
+			"name": "키즈 큐패스 패키지",
+			"date": "~ 08.31",
+			"attention": "스마트예약 전용",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb23.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail17.jpg"
+		},
+		{
+			"id":24,
+			"name": "summer 가족 패키지",
+			"date": "~ 08.31",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb24.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail18.jpg"
+		},
+		{
+			"id":25,
+			"name": "EVER SMTOWN Let's SHINee LAND",
+			"date": "08.03 ~",
+			"attention": "스마트예약",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb25.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail19.jpg"
+		},
+		{
+			"id":26,
+			"name": "EVER SMTOWN PASS",
+			"date": "08.03 ~",
+			"attention": "스마트예약",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb26.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail20.jpg"
+		},
+		{
+			"id":27,
+			"name": "워터라이드 패키지",
+			"date": "~ 08.31",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb27.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail21.jpg"
+		},
+		{
+			"id":28,
+			"name": "비 HAPPY 프로그램",
+			"date": "",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb28.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail22.jpg"
+		},
+		{
+			"id":29,
+			"name": "에버랜드 선물용 이용권",
+			"date": "",
+			"attention": "",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb29.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail23.jpg"
+		},
+		{
+			"id":30,
+			"name": "중/고/대학생 종일이용권 특별우대",
+			"date": "~ 10.31",
+			"attention": "스마트예약 / 현장결제",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb30.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail24.jpg"
+		},
+		{
+			"id":31,
+			"name": "T-발렛 패키지",
+			"date": "~ 10.31",
+			"attention": "스마트예약 한정",
+			"thumb": "../../asset/image/charge/promotion/charge_prom_thumb31.jpg",
+			"detail_img": "../../asset/image/charge/promotion/promdetail/charge_prom_detail25.jpg"
+		}
+	]
+}
