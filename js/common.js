@@ -23,10 +23,10 @@ function loadAfter(){
 			v.sub.forEach((j,q)=>{
 				for(let i=0; i<urlArr.length; i++){ if(j.subhtml == urlArr[i]){  b=urlArr[i]; break} }
 				if(j.subhtml == b) $('.sub_common .sub_tab .depth02 p span').html( j.text );
-				$('.sub_common .sub_tab .depth02 ul').append('<li><a href="/pages/' + v.id + '/'+ j.subhtml + '">' + j.text + '</a></li>');
+				$('.sub_common .sub_tab .depth02 ul').append('<li><a href="/everland/pages/' + v.id + '/'+ j.subhtml + '">' + j.text + '</a></li>');
 			})
 		}
-		$('.sub_common .sub_tab .depth01 ul').append('<li><a href="/pages/' + v.id + '/'+ v.html+'.html">' + v.text + '</a></li>');
+		$('.sub_common .sub_tab .depth01 ul').append('<li><a href="/everland/pages/' + v.id + '/'+ v.html+'.html">' + v.text + '</a></li>');
 	})
 
 
