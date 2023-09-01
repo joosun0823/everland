@@ -1,24 +1,31 @@
 new fullpage('#fullpage', {
     afterLoad: function (origin, destination, direction) {
-		console.log(destination.index)
+		// console.log(destination.index)
         if (destination.index == 0) {
-                $("header").addClass("active");
-                $(".gnb > li > a").addClass("active");
-                $(".gnb_right").addClass("active");
+                $("#header-section").addClass("active");
+                $("#header-section .gnb > li > a").addClass("active");
+                $("#header-section .gnb_right").addClass("active");
+                $('#header-section .gnb_right').on('click', function() {
+                    $(this).addClass('active')
+                })
             } else {
-                $("header").removeClass("active");
-                $(".gnb > li > a").removeClass("active");
-                $(".gnb_right").removeClass("active");
+                $("#header-section").removeClass("active");
+                $("#header-section .gnb > li > a").removeClass("active");
+                $("#header-section .gnb_right").removeClass("active");
+                $('#header-section .gnb_right').on('click', function() {
+                    $(this).removeClass('active')
+                })
             }
 
         $(".section.active").find(".inner .main_title").addClass("active");
         $(".section.active").find(".inner .promotion-contents").addClass("active");
         $(".section.active").find("h2").addClass("active");
         $(".section.active").find(".filter").addClass("active");
-
     },
+
 	//options here
-	autoScrolling:true,
+    // responsiveWidth: 768, // 화면 너비가 768px 이하일 때
+
 	scrollHorizontally: true,
     offsetSections : true,
     fixedElements: '#header-section'
@@ -58,7 +65,6 @@ var swiper = new Swiper(".sec2Swiper", {
     spaceBetween: 20,
     loop: true,
     speed: 800,
-    centeredSlides: true,
     breakpoints: {
         0: {
             slidesPerView: 1,
@@ -82,7 +88,7 @@ var swiper = new Swiper(".sec2Swiper", {
     },
     scrollbar: {
     el: ".swiper-scrollbar",
-    hide: true,
+    hide: false,
     },
 });
 

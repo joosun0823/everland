@@ -92,6 +92,7 @@ const modalOn = function(vID, activeTab) {
 				document.querySelector('.modalTitle').innerText = resData.name;
 				document.querySelector('.pic img').src = resData.detail_img;
 				document.querySelector('.modalDesc').innerText = resData.desc;
+				document.querySelector('.modalMenu').innerText = resData.menu;
 				console.log(resData.use_height)
 				if(resData.use_height) {
 					document.querySelector('.modalKey').style.display = 'block'
@@ -135,15 +136,15 @@ const fetchView = function() {
 			tabBtn[0].classList.add("active");
 			viewBox.innerHTML += `
 				<li onClick="modalOn_view(${v.id}, '주토피아')">
-					<div class="img_area"></div>
+					<div class="img_area"><img src='${v.thumb}'/></div>
 					<div class="txt_area">
 						<b>${v.name}</b>
 						<p>#${v.location}</p>
 					</div>
 				</li>`;
 				
-			const viewImg = document.querySelectorAll('.img_area');
-			viewImg[k].style = `background-image:url(${v.thumb})`;
+			// const viewImg = document.querySelectorAll('.img_area');
+			// viewImg[k].style = `background-image:url(${v.thumb})`;
 		})
 		
 		tabBtn.forEach(function(val, key) {
@@ -204,7 +205,7 @@ const modalOn_view = function(vID, activeTab) {
 				// 모달 창 내용 채우기
 				document.querySelector('.modalLoca').innerText = '#'+resData.location;
 				document.querySelector('.modalTitle').innerText = resData.name;
-				document.querySelector('.pic img').src = resData.thumb;
+				document.querySelector('.pic img').src = resData.detail_img;
 				document.querySelector('.modalDesc').innerText = resData.desc;
 				if(resData.event) {
 					document.querySelector('.modalEvent').style.display = 'block'
@@ -229,30 +230,23 @@ const modalOn_view = function(vID, activeTab) {
 	})
 }
 
-
 // rest_presnt.html
 const fetchRest = function() {
 	fetch("../../data/enjoy/restaurant.json")
 	.then(res => res.json())
 	.then(data => {
-		const tabMenu = document.querySelector(".tab_menu");
 		const restContent = document.querySelector(".rest_presnt_list")
-		let tabBtn;
-		restContent
-		for (const dataKey in data) {
-			tabMenu.innerHTML += `<a class="tabkey">${dataKey}</a>`;
-		}
-		tabBtn = document.querySelectorAll(".tabkey");
+		let tabBtn = document.querySelectorAll(".tabkey");
 
-		let num = 0;
+		// let num = 0;
 		data.레스토랑.forEach(function (V, K) {
 			tabBtn[0].classList.add("active");
 			restContent.innerHTML += `
-				<li>
+				<li onClick="modalOn_rest(${V.id})">
 					<div class="img_area"></div>
 					<div class="txt_area">
 						<b>${V.name}</b>
-						<p>#${V.zone}</p>
+						<p>#${V.location} #${V.cat}</p>
 					</div>
 				</li>`;
 			
@@ -260,29 +254,119 @@ const fetchRest = function() {
 			thumbImg[K].style = ` background-image:url(${V.thumb})`;
 		})
 
-		tabBtn.forEach(function (V, K) {
-			V.addEventListener("click", function () {
-				tabBtn[num].classList.remove('active');
-				this.classList.add('active');
-				num = K;
-	
-				restContent.innerHTML = "";
-				const buttonText = V.innerText;
-				data[buttonText].forEach(function (dataV, dataK) {
-					console.log(this)
-					restContent.innerHTML += `
-					<li>
+		tabBtn[0].addEventListener("click", function() {
+			restContent.innerHTML = '';
+			tabBtn[1].classList.remove('active');
+			tabBtn[0].classList.add('active');
+			data.레스토랑.forEach(function (V, K) {
+				
+				restContent.innerHTML += `
+					<li onClick="modalOn_rest(${V.id})">
 						<div class="img_area"></div>
 						<div class="txt_area">
-							<b>${dataV.name}</b>
-							<p>#${dataV.zone}</p>
+							<b>${V.name}</b>
+							<p>#${V.location} #${V.cat}</p>
 						</div>
 					</li>`;
-					
-					const viewImg = document.querySelectorAll('.img_area');
-					viewImg[dataK].style = ` background-image:url(${dataV.thumb})`;
-				})
+				
+				const thumbImg = document.querySelectorAll('.img_area');
+				thumbImg[K].style = ` background-image:url(${V.thumb})`;
 			})
 		})
+
+		tabBtn[1].addEventListener("click", function() {
+			restContent.innerHTML = '';
+			tabBtn[0].classList.remove('active');
+			tabBtn[1].classList.add('active');
+			data.선물샵.forEach(function (V, K) {
+
+				restContent.innerHTML += `
+					<li onClick="modalOn_gift(${V.id})">
+						<div class="img_area"></div>
+						<div class="txt_area">
+							<b>${V.name}</b>
+							<p>#${V.location}</p>
+						</div>
+					</li>`;
+				
+				const thumbImg = document.querySelectorAll('.img_area');
+				thumbImg[K].style = ` background-image:url(${V.thumb})`;
+			})
+		})
+
+		const modal = document.querySelector(".modal_wrap");
+		const body = document.querySelector("body");
+		modal.classList.remove("open");
+		body.classList.remove("hide");
+	})
+}
+
+// rest_modal
+const modalOn_rest = function(vID) {	
+	const modal = document.querySelector(".rest");
+	const body = document.querySelector("body");
+	const closeBtn = document.querySelector(".rest .close");
+
+	modal.classList.add("open");
+	body.classList.add("hide");
+
+	closeBtn.addEventListener("click", function(e) {
+		modal.classList.remove("open");
+		body.classList.remove("hide");
+	})
+
+	fetch("../../data/enjoy/restaurant.json")
+	.then(res => res.json())
+	.then(data => {
+		const resData = data.레스토랑.find((e) => e.id == vID);
+		if (resData) {
+				// 모달 창 내용 채우기
+				document.querySelector('.rest .modalLoca').innerText = '#'+resData.location + '  #' + resData.cat;
+				document.querySelector('.rest .modalTitle').innerText = resData.name;
+				document.querySelector('.rest .pic img').src = resData.detail_img;
+				document.querySelector('.rest .modalDesc').innerText = resData.desc;
+				document.querySelector('.rest .modalMainmenu').innerText = '주요메뉴 : ' +resData.mainMenu;
+				if(resData.use_info) {
+					document.querySelector('.rest .modalInfo').style.display = 'block'
+					document.querySelector('.rest .modalInfo').innerText = '[이용안내]\n'+ resData.use_info;
+				} else {
+					document.querySelector('.rest .modalInfo').style.display = 'none'
+				}
+				if(resData.attention) {
+					document.querySelector('.rest .modalAtten').style.display = 'block'
+					document.querySelector('.rest .modalAtten').innerText = '[이용안내]\n'+ resData.attention;
+				} else {
+					document.querySelector('.rest .modalAtten').style.display = 'none'
+				}
+		}
+	})
+}
+
+// gift_modal
+const modalOn_gift = function(vID) {	
+	const modal = document.querySelector(".gift");
+	const body = document.querySelector("body");
+	const closeBtn = document.querySelector(".gift .close");
+
+	modal.classList.add("open");
+	body.classList.add("hide");
+
+	closeBtn.addEventListener("click", function(e) {
+		modal.classList.remove("open");
+		body.classList.remove("hide");
+	})
+
+	fetch("../../data/enjoy/restaurant.json")
+	.then(res => res.json())
+	.then(data => {
+		const resData = data.선물샵.find((e) => e.id == vID);
+		if (resData) {
+				console.log(resData.name);
+				// 모달 창 내용 채우기
+				document.querySelector('.gift .modalLoca').innerText = '#'+resData.location;
+				document.querySelector('.gift .modalTitle').innerText = resData.name;
+				document.querySelector('.gift .pic img').src = resData.thumb;
+				document.querySelector('.gift .modalDesc').innerText = resData.desc;
+		}
 	})
 }

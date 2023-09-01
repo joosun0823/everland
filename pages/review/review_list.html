@@ -8,7 +8,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <script src="../../js/review_list.js"></script>
   <script defer src="../../js/common.js"></script>
-  <title>review_list</title>
+	<!-- favicon	 -->
+	<link rel="icon" type="image/png" sizes="32x32" href="../../asset/image/common/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../../asset/image/common/favicon-16x16.png">
+	<title>EVERLAND</title>
 </head>
 <body>
   <header class="header_sub"></header>
@@ -22,8 +25,35 @@
 			<div class="arrow">
 					<a><img src="../../asset/icon/fix_arrow.png" alt=""></a>
 			</div>
-		</div>	
+		</div>
+    
+		<!-- modal -->
+		<div class="modal_wrap">
+			<div class="modal_sec">
+				<div class="modal_header">
+					<h3 class="modalTitle">방문후기</h3>
+					<span class="close"><!-- <img src="../../asset/" alt=""> -->X</span>
+				</div>
+				<div class="desc">
+					<div class="pic">
+						<img src="../../asset/image/enjoy/ENJOY_attract1.jpg" alt="">
+					</div>
+					<div class="caption">
+						<div class="info">
+							<p class="modalName">작성자 : </p>
+							<p class="modalDate">작성일자 : </p>
+						</div>
+						<p class="modalDesc"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //modal -->	
+
   </main>
   <footer></footer>
+	<script>
+		fetchReview();
+	</script>
 </body>
 </html>
