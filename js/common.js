@@ -9,6 +9,7 @@ $('body footer').load('../../common/footer.html .footer_sub>.inner_c');
 function loadAfter(){
 	let url = window.location.pathname;
 	let urlArr = url.split('/');
+	console.log('check', url)
 	const textData = [
 		{id:'use',text:'이용안내',idx:0,html:'operation',sub:[{subhtml:'operation.html',text:'운영/운휴시간 안내'},{subhtml:'show.html',text:'공연일정'}]},
 		{id:'charge',text:'요금정보',idx:1,html:'usecharge',sub:[{subhtml:'usecharge.html',text:'이용요금'},{subhtml:'seasonticket.html',text:'정기권'},{subhtml:'card.html',text:'제휴카드'},{subhtml:'promotion.html',text:'프로모션'}]},
