@@ -86,14 +86,13 @@ const modalOn = function(vID, activeTab) {
 		
 		const resData = data[activeTab].find((e) => e.id == vID);
 		if (resData) {
+				console.log(resData.use_height);
 				console.log(resData.name);
 				// 모달 창 내용 채우기
 				document.querySelector('.modalLoca').innerText = '#'+resData.location;
 				document.querySelector('.modalTitle').innerText = resData.name;
 				document.querySelector('.pic img').src = resData.detail_img;
 				document.querySelector('.modalDesc').innerText = resData.desc;
-				document.querySelector('.modalMenu').innerText = resData.menu;
-				console.log(resData.use_height)
 				if(resData.use_height) {
 					document.querySelector('.modalKey').style.display = 'block'
 					document.querySelector('.modalKey').innerText = '이용 가능 키 제한 : '+ resData.use_height;
@@ -108,7 +107,7 @@ const modalOn = function(vID, activeTab) {
 				}
 				if(resData.attention) {
 					document.querySelector('.modalAtten').style.display = 'block'
-					document.querySelector('.modalAtten').innerText = '[유의사항]\n'+ resData.attention;
+					document.querySelector('.modalAtten').innerText = '[유의사항]'+ resData.attention;
 				} else {
 					document.querySelector('.modalAtten').style.display = 'none'
 				}
