@@ -8,17 +8,13 @@ const fetchReview = function() {
 		reviewData.forEach((v, k)  => {
 			reviewBox.innerHTML += 
 			`<li onClick='modalOn_review(${v.id})'>
-				<div class="img_area"></div>
+				<div class="img_area"><img src='${v.detail_img}'/></div>
 				<div class="review_txt">
 				<b>${v.title}</b>
 				<p>${v.date}</p>
 				</div>
 			</li>`
-			
-			const reviewImg = document.querySelectorAll('.img_area');
-			reviewImg[k].style = ` background-image:url(${v.detail_img})`;
 		})
-		
 	})
 	const modal = document.querySelector(".modal_wrap");
 	const body = document.querySelector("body");

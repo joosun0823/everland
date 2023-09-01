@@ -18,15 +18,12 @@ const fetchAttract = function() {
 			tabBtn[1].classList.add("active");
 			attractContent.innerHTML += `
 				<li onClick="modalOn(${V.id}, '아메리칸어드벤처')">
-					<div class="img_area"></div>
+					<div class="img_area"><img src='${V.thumb}'/></div>
 					<div class="txt_area">
 						<b>${V.name}</b>
 						<p>#${V.location}</p>
 					</div>
 				</li>`;
-			
-			const thumbImg = document.querySelectorAll('.img_area');
-			thumbImg[K].style = ` background-image:url(${V.thumb})`;
 		})
 
 		// tab 눌렀을 시
@@ -43,15 +40,12 @@ const fetchAttract = function() {
 					// console.log(this)
 					attractContent.innerHTML += `
 					<li onClick="modalOn(${dataV.id}, '${buttonText}')">
-						<div class="img_area"></div>
+						<div class="img_area"><img src='${dataV.thumb}'/></div>
 						<div class="txt_area">
 							<b>${dataV.name}</b>
 							<p>#${dataV.location}</p>
 						</div>
 					</li>`;
-					
-					const viewImg = document.querySelectorAll('.img_area');
-					viewImg[dataK].style = ` background-image:url(${dataV.thumb})`;
 				})
 			})
 		})
@@ -86,13 +80,13 @@ const modalOn = function(vID, activeTab) {
 		
 		const resData = data[activeTab].find((e) => e.id == vID);
 		if (resData) {
-				console.log(resData.use_height);
 				console.log(resData.name);
 				// 모달 창 내용 채우기
 				document.querySelector('.modalLoca').innerText = '#'+resData.location;
 				document.querySelector('.modalTitle').innerText = resData.name;
 				document.querySelector('.pic img').src = resData.detail_img;
 				document.querySelector('.modalDesc').innerText = resData.desc;
+				console.log(resData.use_height)
 				if(resData.use_height) {
 					document.querySelector('.modalKey').style.display = 'block'
 					document.querySelector('.modalKey').innerText = '이용 가능 키 제한 : '+ resData.use_height;
@@ -107,7 +101,7 @@ const modalOn = function(vID, activeTab) {
 				}
 				if(resData.attention) {
 					document.querySelector('.modalAtten').style.display = 'block'
-					document.querySelector('.modalAtten').innerText = '[유의사항]'+ resData.attention;
+					document.querySelector('.modalAtten').innerText = '[유의사항]\n'+ resData.attention;
 				} else {
 					document.querySelector('.modalAtten').style.display = 'none'
 				}
@@ -141,9 +135,6 @@ const fetchView = function() {
 						<p>#${v.location}</p>
 					</div>
 				</li>`;
-				
-			// const viewImg = document.querySelectorAll('.img_area');
-			// viewImg[k].style = `background-image:url(${v.thumb})`;
 		})
 		
 		tabBtn.forEach(function(val, key) {
@@ -158,16 +149,12 @@ const fetchView = function() {
 				data[btnText].forEach((dataV, dataK)  => {
 					viewBox.innerHTML += 
 					`<li onClick="modalOn_view(${dataV.id}, '${btnText}')">
-						<div class="img_area"></div>
+						<div class="img_area"><img src='${dataV.thumb}'/></div>
 						<div class="txt_area">
 							<b>${dataV.name}</b>
 							<p>#${dataV.location}</p>
 						</div>
 					</li>`;
-
-					const viewImg = document.querySelectorAll('.img_area');
-					viewImg[dataK].style = ` background-image:url(${dataV.thumb})`;
-					//backgound-image변경하는법
 				})
 			})
 		})
@@ -242,15 +229,12 @@ const fetchRest = function() {
 			tabBtn[0].classList.add("active");
 			restContent.innerHTML += `
 				<li onClick="modalOn_rest(${V.id})">
-					<div class="img_area"></div>
+					<div class="img_area"><img src='${V.thumb}'/></div>
 					<div class="txt_area">
 						<b>${V.name}</b>
 						<p>#${V.location} #${V.cat}</p>
 					</div>
 				</li>`;
-			
-			const thumbImg = document.querySelectorAll('.img_area');
-			thumbImg[K].style = ` background-image:url(${V.thumb})`;
 		})
 
 		tabBtn[0].addEventListener("click", function() {
@@ -261,15 +245,12 @@ const fetchRest = function() {
 				
 				restContent.innerHTML += `
 					<li onClick="modalOn_rest(${V.id})">
-						<div class="img_area"></div>
+						<div class="img_area"><img src='${V.thumb}'/></div>
 						<div class="txt_area">
 							<b>${V.name}</b>
 							<p>#${V.location} #${V.cat}</p>
 						</div>
 					</li>`;
-				
-				const thumbImg = document.querySelectorAll('.img_area');
-				thumbImg[K].style = ` background-image:url(${V.thumb})`;
 			})
 		})
 
@@ -281,15 +262,12 @@ const fetchRest = function() {
 
 				restContent.innerHTML += `
 					<li onClick="modalOn_gift(${V.id})">
-						<div class="img_area"></div>
+						<div class="img_area"><img src='${V.thumb}'/></div>
 						<div class="txt_area">
 							<b>${V.name}</b>
 							<p>#${V.location}</p>
 						</div>
 					</li>`;
-				
-				const thumbImg = document.querySelectorAll('.img_area');
-				thumbImg[K].style = ` background-image:url(${V.thumb})`;
 			})
 		})
 
@@ -364,7 +342,7 @@ const modalOn_gift = function(vID) {
 				// 모달 창 내용 채우기
 				document.querySelector('.gift .modalLoca').innerText = '#'+resData.location;
 				document.querySelector('.gift .modalTitle').innerText = resData.name;
-				document.querySelector('.gift .pic img').src = resData.thumb;
+				document.querySelector('.gift .pic img').src = resData.detail_img;
 				document.querySelector('.gift .modalDesc').innerText = resData.desc;
 		}
 	})
