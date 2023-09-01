@@ -1,0 +1,611 @@
+{ 
+	"레스토랑" : [
+		{
+			"id": 1,
+			"name": "홀랜드 빌리지",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb1.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest1.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "양식",
+			"mainMenu": "홀랜드시그니처BBQ, 바베큐플레이트, 맥주 등",
+			"desc": "유럽 거리를 재현한 1,000석 규모의 야외 홀\n시원한 맥주 한 잔, 바로 구워낸 BBQ 한 입에 포시즌스 가든의 경치는 덤!",
+			"use_info" :"* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": null
+		},
+		{
+			"id": 2,
+			"name": "쿠치나 마리오",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb2.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest2.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "양식",
+			"mainMenu": "쿠치나플랫브레드, 감베리오일파스타 등",
+			"desc": "'마리오 아저씨의 부엌'이란 뜻의 피자&파스타 전문 레스토랑!\n\n바삭한 화덕 피자와 풍부한 맛의 파스타를 즐겨 보세요!\n\n쿠치나 마리오에서는 테이블에서 주문을 받고\n음식을 갖다 드리는 테이블 서비스를 운영합니다.",
+			"use_info" :"* 일부 운영일에는 단체메뉴 한정 운영으로 판매 메뉴가 변경 될 수 있습니다.\n* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": "* 브레이크 타임 : 16:00~17:00\n(주말/공휴일은 정상운영되나 매장 상황에 변경될 수 있습니다.)\n- 야간 테라스 좌석은 사전예약제로 운영 됩니다.(스마트예약 이용)\n- 야간공연과는 별개로 매장 사정에 의해 테라스 운영이 어려운 경우 예약이 불가 할 수도 있습니다.\n- 메뉴는 예고없이 변경 또는 품절 될 수 있습니다."
+		},
+		{
+			"id": 3,
+			"name": "한가람",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb3.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest3.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "한식",
+			"mainMenu": "돼지고기 김치찌개 반상, 고등어구이 등",
+			"desc": "한식의 깔끔하고 정갈한 맛을 그대로 살려낸 에버랜드의 소문난 맛집 한가람.\n\n포시즌스 가든에서 따뜻한 한식 한상을 즐겨보시는건 어떨까요?",
+			"use_info" :"* 일부 운영일에는 단체메뉴 한정 운영으로 판매 메뉴가 변경 될 수 있습니다.",
+			"attention": null
+		},
+		{
+			"id": 4,
+			"name": "타운즈 마켓 레스토랑",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb4.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest4.jpg",
+			"location": "매직랜드",
+			"cat": "한식",
+			"mainMenu": "카레벤토, 우동, 덮밥, 초밥정식 등",
+			"desc": "이솝빌리지 친구들이 찾는 음식점답게\n아기자기 귀여운 인테리어에 가을의 풍족함을 담은, 가을 특선 메뉴들까지~\n타운즈 마켓 레스토랑에서 다양한 가족 메뉴를 즐기세요.",
+			"use_info" :"* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": null
+		},
+		{
+			"id": 5,
+			"name": "가든테라스(피자&스낵)",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb5.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest5.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "양식",
+			"mainMenu": "고르곤졸라피자, 케이준치킨그라탕, 아메리카노 등",
+			"desc": "포시즌스 가든이 내려다 보이는 카페에서 즐기는 가벼운 한끼!\n낮에는 커피와 브런치 메뉴를 즐기며 향기로운 꽃을\n밤에는 시원한 맥주와 피자를 즐기며 반짝이는 야경을 감상할 수 있어요.",
+			"use_info" :"* 테라스 좌석은 10~17시까지는 자유롭게 이용가능하며 18시 이후는 사전예약제로 운영 됩니다.(스마트예약 이용)\n* 야간공연과는 별개로 매장 사정에 의해 테라스 운영이 어려운 경우 예약이 불가 할 수도 있습니다.\n* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": null
+		},
+		{
+			"id": 6,
+			"name": "알파인 레스토랑",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb6.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest6.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "한식",
+			"mainMenu": "목살된장김치찌개, 순등심돈가스 등",
+			"desc": "남녀노소 누구나 좋아하는 한식 베스트 메뉴가 여기에~!\n목살된장김치찌개, 돈가스를 맛볼 수 있는 알파인 레스토랑!",
+			"use_info" :"* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": null
+		},
+		{
+			"id": 7,
+			"name": "매직타임 레스토랑",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb7.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest7.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "종합",
+			"mainMenu": "차돌박이 칼국수와 고기만두, 쇠고기 시래기 국밥 반상 등",
+			"desc": "시간과 공간을 넘나드는 미각여행!\n맛있는 한식, 일식, 중식, 샐러드를 모두 한 자리에서 즐겨보세요!\n매직타임 레스토랑 옆, 매직타임 스낵에서도\n밤밤맨과 함께하는 여름나기 스낵들을 만나보세요!",
+			"use_info" :"* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": null
+		},
+		{
+			"id": 8,
+			"name": "차이나 문",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb8.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest8.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "중식",
+			"mainMenu": "자장면, 오징어짬뽕, 치킨구이와 중화볶음밥, 광동식 찹쌀탕수육 등",
+			"desc": "아이 어른 모두가 만족하는 차이니즈 레스토랑 차이나 문!\n특별한 추억을 만들고 싶은 분에게는 창가 쪽 자리를 추천합니다.\n포시즌스 가든이 한 눈에 들어오는 백만불짜리 가든뷰가 공짜랍니다.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 9,
+			"name": "가든테라스(카페)",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb9.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest9.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "카페",
+			"mainMenu": "리얼수박주스, 밀크티버블, 딸기라떼버블, 착즙주스, 에이드 등",
+			"desc": "포시즌스 가든이 내려다 보이는 카페에서 달콤한 버블티를 즐겨보세요.\n꽃의 향기와 함께하는 버블티는 맛이 두 배!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 10,
+			"name": "알프스 쿠체",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb10.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest10.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "양식",
+			"mainMenu": "치킨 윙&김치 라이스 세트, 바비큐 폭립 플레이트 세트, 요리조리 '눈치꼬치' 등",
+			"desc": "Take-out 매장\n알프스 마을의 고즈넉한 식당을 그대로 옮겨 놓은 듯한 곳,\n유럽풍 메뉴로 다양한 이 곳에서 유럽 노천카페의 분위기를 한껏 느껴 보세요.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 11,
+			"name": "오리엔탈 누들 레스토랑",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb11.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest11.jpg",
+			"location": "글로벌페어",
+			"cat": "면요리",
+			"mainMenu": "새우코코넛커리, 오사카에비텐우동, 히카타 돈코츠 라멘 등",
+			"desc": "자가제면 전문점 직접 뽑은 최고의 면과\n정통 조리법으로 끓인 육수를 사용한 아시아 지역별 면요리를 즐겨보세요!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 12,
+			"name": "Cafe 정글캠프",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb12.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest12.jpg",
+			"location": "주토피아",
+			"cat": "피자/치킨",
+			"mainMenu": "트리플 콤보 스테이크, 몬스터트레이, 피자, 에이드, 라떼, 슬러쉬 등",
+			"desc": "로스트 밸리, 아마존 정글, 사파리 월드로~\n모험을 떠나려면 든든하게 배를 채우는 등 철저한 준비는 필수!\n탐험가들을 위한 휴식처 Cafe 정글캠프!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 13,
+			"name": "스낵 버스터",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb13.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest13.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "스낵",
+			"mainMenu": "오징어튀김떡볶이, 모둠튀김떡볶이, 허니간장순살치킨과감자튀김 등",
+			"desc": "시원한 맥주와 다양한 토핑이 곁들여진 떡볶이와 치킨을 즐겨보세요!",
+			"use_info" :"* 채식 메뉴(소고기,돼지고기,닭고기 제외 메뉴) 관련 문의는 매장에 부탁드립니다.",
+			"attention": null
+		},
+		{
+			"id": 14,
+			"name": "포메인",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb14.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest14.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "베트남 쌀국수",
+			"mainMenu": "포메인 쌀국수, 스파이시 포, 프리미엄 소고기 쌀국수, 매운 해산물 볶음 쌀국수 등",
+			"desc": "포메인은 2006년 분당 정자본점을 시작으로\n16년간 변함없는 사랑을 받아온 대한민국 대표 베트남 쌀국수 브랜드입니다.\n포메인은 동종업계 최초로 신선한 원료와 독자적인 기술을 바탕으로\n향긋하고 부드러운 \"햅쌀면\" 을 개발하며\n타브랜드와는 차별화되는 \"맛\"을 완성하였습니다.\n햅쌀 본연의 \"깔끔한 향과 맛\"이 담긴 \"햅쌀면\"\n매장에서 직접 끓인 \"명품 육수\"로 만든 건강하고 맛있는 쌀국수를 만나보세요!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 15,
+			"name": "버거카페 유럽",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb15.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest15.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "패스트푸드",
+			"mainMenu": "더블치즈비프, 클래식갈릭비프, 스파이시치킨, 통살사워치킨",
+			"desc": "새롭게 선보이는 버거카페 유럽의 Premium Burger!\n통밀빵의 풍미를 담아내어 더욱 고소~한\n버거카페 유럽만의 특급 레시피",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 16,
+			"name": "버거카페 아메리카",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb16.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest16.jpg",
+			"location": "아메리칸 어드벤처",
+			"cat": "패스트푸드",
+			"mainMenu": "클래식갈릭비프, 스파이시 치킨, 리얼 슈림프 버거",
+			"desc": "신나는 어트랙션을 즐겼다면 허기진 배를 채우기 위해 캘리포니아의 햄버거 가게 분위기의 버거카페 아메리카에서 식사하시죠.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 17,
+			"name": "KFC",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb17.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest17.jpg",
+			"location": "아메리칸 어드벤처",
+			"cat": "패스트푸드",
+			"mainMenu": "더블치즈타워버거세트, 오리지널 치킨, 비스켓",
+			"desc": "신나는 어트랙션이 가득한 아메리칸 어드벤처에서 즐기는 치킨과 햄버거! 60년 전통의 신선하고 맛있는 치킨을 즐겨보세요",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 18,
+			"name": "BHC 치킨",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb18.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest18.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "치킨",
+			"mainMenu": "콜팝, 순살뿌링클, 핫윙, 치즈볼, 꿀호떡",
+			"desc": "BHC 치킨 에버랜드 오픈!!\n국민간식 콜팝, 인기폭발 치즈볼과 달콤쫀득한 꿀호떡도 함께 만나보세요.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 19,
+			"name": "달콤커피 판다월드점",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb19.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest19.jpg",
+			"location": "주토피아",
+			"cat": "카페",
+			"mainMenu": "커피, 주스, 에이드, 아이스크림, 케익 및 디저트 등",
+			"desc": "판다월드도 식후경!\n프리미엄 커피와 다양한 음료, 달콤한 디저트를 만나보세요~",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 20,
+			"name": "달콤커피 가든점",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb20.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest20.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "카페",
+			"mainMenu": "커피, 주스, 에이드, 아이스크림, 케잌 및 디저트 등",
+			"desc": "에버랜드도 식후경!\n프리미엄 커피와 다양한 음료, 달콤한 디저트를 만나보세요",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 21,
+			"name": "스타벅스",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb21.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest21.jpg",
+			"location": "글로벌페어",
+			"cat": "카페",
+			"mainMenu": "아메리카노, 카페라떼, 케이크 등",
+			"desc": "스타벅스 리저브 용인에버랜드 R 오픈\n에버랜드 한정 음료, 푸드와 다양한 상품을 만나보세요.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 22,
+			"name": "커피빈",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb22.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest22.jpg",
+			"location": "유러피언 어드벤처",
+			"cat": "카페",
+			"mainMenu": "아메리카노, 카페라떼, 달고나크림라떼",
+			"desc": "가든뷰와 함께 즐기는 다양한 커피&티와\n한정 MD도 만나보세요!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 23,
+			"name": "라운지엑스",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb23.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest23.jpg",
+			"location": "글로벌페어",
+			"cat": "카페, 디저트",
+			"mainMenu": "로봇 드립 커피, 로봇 아이스크림, 쿠키, 휘낭시에 등",
+			"desc": "현재와 미래가 만나는 공간, 라운지엑스\n정밀한 바리스타 로봇이 선사하는 커피&디저트는 물론,\n상상력을 자극하는 독특한 경험으로 스타일리시한 여유를 만나보세요.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 24,
+			"name": "뉴욕센트럴 스낵",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb24.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest24.jpg",
+			"location": "아메리칸 어드벤처",
+			"cat": "스낵",
+			"mainMenu": "닭꼬치, 츄러스",
+			"desc": "미국 문화의 중심 뉴욕 맨하탄 거리를 배경으로 한 뉴욕 센트럴 스낵~\n마치 뉴욕에 있는 듯한 착각을 일으키는 그 곳에서 맛있는 간식들을 즐겨보세요.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 25,
+			"name": "멀린스 스낵",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb25.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest25.jpg",
+			"location": "매직랜드",
+			"cat": "스낵",
+			"mainMenu": "츄러스, 치킨",
+			"desc": "허기를 달래주는 또 다른 메뉴가 있다!\n여기 저기 구경하며 즐길 수 있는 다양한 스낵을 맛보세요!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 26,
+			"name": "아마존 스낵",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb26.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest26.jpg",
+			"location": "주토피아",
+			"cat": "스낵",
+			"mainMenu": "닭꼬치, 츄러스, 핫도그",
+			"desc": "아마존에서 즐기는 간편한 스낵!\n탐험을 떠나려면 배를 든든히 해야겠죠?\n아마존 스낵에 들러 꼭 맛보고 가세요!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 27,
+			"name": "타무스낵",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb27.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest27.jpg",
+			"location": "주토피아",
+			"cat": "스낵",
+			"mainMenu": "츄러스, 닭꼬치",
+			"desc": "모험을 즐긴 후 출출해진 배를 달래줄 타무스낵!\n아마존보트를 닮은 아마존피자를 맛볼 수 있는 오직 한 곳!\n타무스낵에서 만나요~",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 28,
+			"name": "팝콘 카트",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb28.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest28.jpg",
+			"location": "글로벌페어",
+			"cat": "스낵",
+			"mainMenu": "캐릭터 팝콘",
+			"desc": "향긋한 팝콘이 가득한 팝콘 카트!\n달콤한 팝콘과 깜찍한 캐릭터 팝콘 통을 만나실 수 있습니다!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 29,
+			"name": "한와담 소반",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb29.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest29.jpg",
+			"location": "글로벌페어",
+			"cat": "한식",
+			"mainMenu": "서울식불고기, 갈비곰탕, 차돌깍두기 볶음밥",
+			"desc": "Est. 2013 한우.와인.담소 한와담의 가장 사랑받는 메뉴만을 선정하여\n정갈하게 담아낸 한와담소반, 맛있는 한식여행을 초대합니다.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 30,
+			"name": "온더보더",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb30.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest30.jpg",
+			"location": "글로벌페어",
+			"cat": "멕시코 요리",
+			"mainMenu": "얼티밋 화이타, 더블 스텍 클럽 퀘사디아",
+			"desc": "신선한 재료와 홈메이드 방식을 추구하는 정통 멕시칸 레스토랑 온더보더\n흥겨운 라틴 음악과 다양한 멕시코 요리와 함께 365일 축제를 즐기자!",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 31,
+			"name": "크리스탈 제이드",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb31.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest31.jpg",
+			"location": "글로벌페어",
+			"cat": "중식",
+			"mainMenu": "홍콩식 딤섬& 누들",
+			"desc": "전 세계 미식가들이 사랑하는 글로벌 차이니즈 레스토랑\n현지 셰프의 딤섬과 누들, 다채로운 중국 요리를 만나보세요.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 32,
+			"name": "PIZZA IL FORNO",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb32.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest32.jpg",
+			"location": "글로벌페어",
+			"cat": "이탈리안 화덕 피자, 파스타",
+			"mainMenu": "피자, 파스타, 스테이크",
+			"desc": "일뽀르노는 이탈리아어로 화덕(Forno)이라는 뜻으로\n정통 나폴리 화덕 피자와 파스타를 즐길 수 있는 핏제리아 매장입니다.\n나폴리 피자 협회 ‘Vera Pizza’ 인증을 세계 300번째, 한국에서\n첫번째로 인증받은 ‘정통 나폴리 진수’을 이어갑니다.",
+			"use_info" : null,
+			"attention": null
+		},
+		{
+			"id": 33,
+			"name": "폴바셋",
+			"thumb": "../../asset/image/enjoy/ENJOY_rest_thumb33.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_rest33.jpg",
+			"location": "글로벌페어",
+			"cat": "카페",
+			"mainMenu": "커피, 음료, 디저트",
+			"desc": "2003 WBC (World Barista Championship) 우승자 폴 바셋과\n함께하는 스폐셜티 커피 전문점.\n편안한 공간에서 높은 품질의 커피와 디저트를 즐겨보세요.",
+			"use_info" : null,
+			"attention": null
+		}
+	],
+	"선물샵": [
+		{
+			"id": 34,
+			"name": "그랜드엠포리엄",
+			"location": "글로벌페어",
+			"desc": "그리스 로마 신화를 테마로 꾸며진 에버랜드 최대 규모의 종합 캐릭터 샵!\n무엇을 고를까 고민하는 즐거움이 있어요\n게다가 라시언 메모리엄으로 이어지는 통로는 글로벌 페어를 가로지르는 보너스 지름길!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb1.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift1.jpg"
+		},
+		{
+			"id": 35,
+			"name": "라시언메모리엄",
+			"location": "글로벌페어",
+			"desc": "정문을 들어서자마자 만나는 라시언 메모리엄은 에버랜드 개장시각부터 폐장시각까지 운영하는 에버랜드 대표 샵입니다.",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb2.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift2.jpg"
+		},
+		{
+			"id": 36,
+			"name": "판다월드샵",
+			"location": "주토피아",
+			"desc": "이토록 귀여운 판다를 집에 데려올 수 없다면... 판다를 쏙 닮은 판다 기프트가 있잖아!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb3.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift3.jpg"
+		},
+		{
+			"id": 37,
+			"name": "KWANGYA@EVERLAND",
+			"location": "글로벌페어",
+			"desc": "'EVER SMTOWN' 공식 스토어에서 전용 MD를 만나보세요!\nSM 미래 엔터테인먼트 체험 공간",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb4.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift4.jpg"
+		},
+		{
+			"id": 38,
+			"name": "마하라자샵(인생네컷)",
+			"location": "글로벌페어",
+			"desc": "귀여운 판다, 레서판다 배경으로\n에버랜드에서의 멋진 추억을 남겨보세요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb5.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift5.jpg"
+		},
+		{
+			"id": 39,
+			"name": "로지텍",
+			"location": "글로벌페어",
+			"desc": "IT전문기기 '로지텍' 매장이 새롭게 오픈하였습니다.\n다양한 게이밍 기어(키보드, 마우스, 헤드셋 등) 제품들을 직접 체험해보세요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb6.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift6.jpg"
+		},
+		{
+			"id": 40,
+			"name": "매직기프트",
+			"location": "글로벌페어",
+			"desc": "머리부터 발 끝까지~!\n귀엽고 깜찍한 키즈 신발&의류를 편리하게 만나보고 싶다면?!\n지금 바로 <매직기프트> 매장을 들러보세요!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb7.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift7.jpg"
+		},
+		{
+			"id": 41,
+			"name": "캔디&쿠키",
+			"location": "글로벌페어",
+			"desc": "샵에 들어가는 순간 달콤한 세상이 눈 앞에 펼쳐집니다. 알록달록 캔디와 초콜릿 색깔로 장식된 사탕 공장 '쿠키&캔디'에서 달달한 쇼핑을 즐겨요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb8.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift8.jpg"
+		},
+		{
+			"id": 42,
+			"name": "로스트밸리기프트",
+			"location": "주토피아",
+			"desc": "로스트 밸리의 여운이 가시지 않았다면 바로 여기로!\n귀여운 로스트 밸리의 동물친구들 피규어와 인형도 만나보고 탐험의 준비물까지 만나볼 수 있어요!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb9.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift9.jpg"
+		},
+		{
+			"id": 43,
+			"name": "아마존샵",
+			"location": "주토피아",
+			"desc": "백호, 원숭이, 펭귄 등 귀여운 주토피아 동물 캐릭터 상품들 총집합! 아이들이 가장 좋아하는 에버랜드 선물은 뭐니뭐니해도 동물인형이에요!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb10.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift10.jpg"
+		},
+		{
+			"id": 44,
+			"name": "사파리기프트",
+			"location": "유러피언 어드벤처",
+			"desc": "에버랜드 퍼레이드의 종점 카니발 광장 앞 스카이웨이 기프트에는 축제를 기념할 수 있는 다양한 상품이 준비되어 있습니다. 리뉴얼되어 더욱 쾌적하고 상큼한 스카이웨이 기프트에서 에버랜드의 추억을 담아 가세요.",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb11.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift11.jpg"
+		},
+		{
+			"id": 45,
+			"name": "에델바이스",
+			"location": "유러피언 어드벤처",
+			"desc": "알파인 빌리지 입구에서 만나는 '캔디 & 젤리' 캔디와 쿠키 먹고 에버랜드에서의 달콤한 여행 되세요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb12.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift12.jpg"
+		},
+		{
+			"id": 46,
+			"name": "알프스샵",
+			"location": "유러피언 어드벤처",
+			"desc": "T 익스프레스의 기념품을 갖고 싶으신가요?\n알프스 샵에 오시면 T 익스프레스의 테마 선물과 다양한 캐릭터 상품을 만나 보실 수 있습니다.",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb13.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift13.jpg"
+		},
+		{
+			"id": 47,
+			"name": "스카이웨이 기프트",
+			"location": "유러피언 어드벤처",
+			"desc": "에버랜드 퍼레이드의 종점 카니발 광장 앞 스카이웨이 기프트에는 축제를 기념할 수 있는 다양한 상품이 준비되어 있습니다. 리뉴얼되어 더욱 쾌적하고 상큼한 스카이웨이 기프트에서 에버랜드의 추억을 담아 가세요.",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb14.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift14.jpg"
+		},
+		{
+			"id": 48,
+			"name": "르네상스(인생네컷)",
+			"location": "유러피언 어드벤처",
+			"desc": "에버랜드 x 인생네컷 매장이 새롭게 오픈하였습니다.\n귀여운 판다, 레서판다 배경으로\n에버랜드에서의 멋진 추억을 남겨보세요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb15.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift15.jpg"
+		},
+		{
+			"id": 49,
+			"name": "로즈기프트",
+			"location": "매직랜드",
+			"desc": "장미원으로 통하는 길목의 아기자기한 선물샵 로즈 기프트~ 화려하고 아름다운 꽃 캐릭터 상품들이 가득한 이곳은 꽃처럼 아름다운 여성분들이 특히 좋아한대요.",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb16.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift16.jpg"
+		},
+		{
+			"id": 50,
+			"name": "메모리얼샵",
+			"location": "유러피언 어드벤처",
+			"desc": "스카이 크루즈를 타고 내려오면 펼쳐지는 아기자기한 문구들의 세상!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb17.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift17.jpg"
+		},
+		{
+			"id": 51,
+			"name": "이솝기프트",
+			"location": "매직랜드",
+			"desc": "이솝 마을 캐릭터들이 총출동! 이솝 기프트에 사랑스런 인형은 물론 아이에게 꼭 필요한 학용품까지 모두 있답니다. 매장 안에는 백 년도 넘은 오래된 이솝 이야기 책도 전시되어 있어요. 벌써 구경가고 싶어지네요~!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb18.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift18.jpg"
+		},
+		{
+			"id": 52,
+			"name": "에잇세컨즈",
+			"location": "글로벌페어",
+			"desc": "패셔니스타가 되고 싶다면 바로 이곳으로~ 액세서리부터 예쁜 옷 그리고 신발까지 머리부터 발끝까지 아름답고 멋지게 꾸며볼까요?",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb19.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift19.jpg"
+		},
+		{
+			"id": 53,
+			"name": "타워포토",
+			"location": "글로벌페어",
+			"desc": "어트랙션 순간포착사진, 동물 합성 크로마키 사진 등 에버랜드에서의 추억을 색다르게 담을 수 있는 “에버포토” 서비스를 만나 보세요\n※ 미운영",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb20.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift20.jpg"
+		},
+		{
+			"id": 54,
+			"name": "튤리하우스 (올리브영)",
+			"location": "글로벌페어",
+			"desc": "대한민국 No.1 헬스&뷰티 스토어 올리브영을 에버랜드에서도 만나 보세요!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb21.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift21.jpg"
+		},
+		{
+			"id": 55,
+			"name": "에버마트",
+			"location": "글로벌페어",
+			"desc": "간편 식품, 음료, 과자, 스낵 등을 간편하게 이용하실 수 있습니다.",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb22.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift22.jpg"
+		},
+		{
+			"id": 56,
+			"name": "에버핏 (브랜드의류 종합매장)",
+			"location": "글로벌페어",
+			"desc": "멋진 나들이 의상을 에버랜드 현장에서 직접 구입해 보세요.\n에버랜드점에서만 진행되는 다양한 이벤트도 놓치지 마세요~!",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb23.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift23.jpg"
+		},
+		{
+			"id": 57,
+			"name": "감성교복",
+			"location": "글로벌페어",
+			"desc": "세상에서 제일 예쁜 감성교복!!\n포토스팟 가득한 에버랜드에서 오늘의 주인공이 되어보세요",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb24.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift24.jpg"
+		},
+		{
+			"id": 58,
+			"name": "정문CU편의점",
+			"location": "글로벌페어",
+			"desc": "신선함으로 가득 찬 CU 편의점이 새롭게 오픈하였습니다.\n 다양한 상품이 준비되어 있으니 에버랜드 입장하기 전 만나보세요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb25.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift25.jpg"
+		},
+		{
+			"id": 59,
+			"name": "POP-UP STORE",
+			"location": "글로벌페어",
+			"desc": "지금 에버랜드에 MZ 타겟의 감성 POP-UP STORE \"무유무유\"가 오픈하였습니다.\n무직타이거, 수집가무무, 고양이다방 등 50여 가지 캐릭터가 총출동!!\n다꾸 필수품과 귀여운 액세서리를 만나보세요~",
+			"thumb": "../../asset/image/enjoy/ENJOY_gift_thumb26.jpg",
+			"detail_img": "../../asset/image/enjoy/ENJOY_gift26.jpg"
+		}
+
+	]
+}

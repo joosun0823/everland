@@ -1278,7 +1278,6 @@ main .course_list .course_wrap figure img {
 
 @media screen and (max-width: 991px) {
   .list_wrap {
-    display: flex;
     gap: 0;
   }
   .list_wrap > li {
@@ -1288,7 +1287,6 @@ main .course_list .course_wrap figure img {
 }
 @media screen and (max-width: 480px) {
   .list_wrap {
-    display: flex;
     gap: 0;
   }
   .list_wrap > li {

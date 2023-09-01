@@ -42,50 +42,6 @@ function loadAfter(){
 	})
 }
 
-
-// $(window).on("load", function(){
-// 	setTimeout(() => {
-// 		// // sub_common
-// 		// // depth01 리스트 부분
-// 		// $("header .gnb > li > a").each(function() {
-// 		// 	let title = $(this).text(); // depth01 타이틀
-// 		// 	let link = $(this).attr('href'); // depth01 링크
-// 		// 	$('.sub_common .sub_tab .depth01 ul').append('<li><a href="' + link + '">' + title + '</a></li>');
-// 		// });
-// 		// // sub_common 텍스트
-// 		// $("header .gnb li ul li a").each(function() {
-// 		// 	if ( $(this).attr("href") == url ){
-// 		// 		let idx = $(this).parent().parent().parent().index();
-// 		// 		let title = $(this).parent().parent().parent().find('>a').text(); // depth01 타이틀
-// 		// 		let depth02 = $(this).parent().parent().html(); // depth02
-// 		// 		let this_tit = $(this).text(); // 현재페이지 타이틀
-				
-// 		// 		$('.sub_common .sub_visual').css("background-image", "url('../../asset/image/common/sub_visual" + idx + ".jpg')");
-// 		// 		$('.sub_common .sub_visual .txt_box h2').html( title );
-// 		// 		$('.sub_common .sub_tab .depth01 p span').html( title );
-// 		// 		$('.sub_common .sub_tab .depth02 p span').html( this_tit );
-// 		// 		$('.sub_common .sub_tab .depth02 ul').append(depth02);
-// 		// 	}
-// 		// });
-	
-// 		// sub_tab 열기,닫기
-		
-// 	}, 100);
-// });
-
-// const menu = document.querySelectorAll('.gnb li');
-// const test = document.querySelector('.gnb');
-// const menuOn = function() {
-// 	test.classList.add('add');
-// }
-// const menuOut = function() {
-// 	test.classList.remove('add');
-// }
-// test.addEventListener('mouseenter', menuOn);
-// test.addEventListener('mouseout', menuOut);
-// menu.forEach(function(v,k) {
-// })
-
 function menuClick(_this) {
 	const open = $('.header_open_wrap');
 	$('body').toggleClass('hide');
@@ -104,11 +60,101 @@ function menuClick(_this) {
 }
 
 // slide up btn
-// const ArrowBttn = document.querySelector('.arrow');
+const ArrowBttn = document.querySelector('.arrow');
 
-// ArrowBttn.addEventListener("click", function() {
-// 	window.scrollTo({
-// 		top:0,
-// 		behavior:"smooth"
-// 	})
-// })
+ArrowBttn.addEventListener("click", function() {
+	window.scrollTo({
+		top:0,
+		behavior:"smooth"
+	})
+})
+
+//카카오 로그인
+Kakao.init('6c7c766a0696905f395ca5e542a55865');
+
+function loginWithKakao() {
+	Kakao.Auth.login({
+		success: function (authObj) {
+			Kakao.API.request({
+				url: '/v2/user/me',
+				success: function (res) {
+					console.log(res)
+					let name = res.properties.nickname;
+					let email = res.kakao_account.email;
+					info.innerHTML = `이름 : ${name} <br> 이메일 : ${email}`;
+				},
+				fail: function (error) {
+					alert(
+						'login success, but failed to request user information: ' +
+						JSON.stringify(error)
+					)
+				},
+			})
+
+		},
+		fail: function (err) {
+			alert('failed to login: ' + JSON.stringify(err))
+		},
+	})
+}
+
+// 아래는 데모를 위한 UI 코드입니다.
+displayToken()
+function displayToken() {
+	var token = getCookie('authorize-access-token');
+
+	if (token) {
+		Kakao.Auth.setAccessToken(token);
+		Kakao.Auth.getStatusInfo()
+			.then(function (res) {
+				if (res.status === 'connected') {
+					document.getElementById('token-result').innerText
+						= 'login success, token: ' + Kakao.Auth.getAccessToken();
+				}
+			})
+			.catch(function (err) {
+				Kakao.Auth.setAccessToken(null);
+			});
+	}
+}
+
+function getCookie(name) {
+	var parts = document.cookie.split(name + '=');
+	if (parts.length === 2) { return parts[1].split(';')[0]; }
+}
+
+//구글 처음 실행하는 함수
+function init() {
+	gapi.load('auth2', function () {
+		gapi.auth2.init();
+		options = new gapi.auth2.SigninOptionsBuilder();
+		options.setPrompt('select_account');
+		// 추가는 Oauth 승인 권한 추가 후 띄어쓰기 기준으로 추가
+		options.setScope('email profile openid https://www.googleapis.com/auth/user.birthday.read');
+		// 인스턴스의 함수 호출 - element에 로그인 기능 추가
+		// GgCustomLogin은 li태그안에 있는 ID, 위에 설정한 options와 아래 성공,실패시 실행하는 함수들
+		gapi.auth2.getAuthInstance().attachClickHandler('GgCustomLogin', options, onSignIn, onSignInFailure);
+	})
+}
+
+function onSignIn(googleUser) {
+	var access_token = googleUser.getAuthResponse().access_token
+	$.ajax({
+		// people api를 이용하여 프로필 및 생년월일에 대한 선택동의후 가져온다.
+		url: 'https://people.googleapis.com/v1/people/me'
+		// key에 자신의 API 키를 넣습니다.
+		, data: { personFields: 'birthdays', key: 'AIzaSyBwsbJu8-7pvUtXs03dfYmwO4nZDPiLTJA', 'access_token': access_token }
+		, method: 'GET'
+	})
+		.done(function (e) {
+			//프로필을 가져온다.
+			var profile = googleUser.getBasicProfile();
+			console.log(profile)
+		})
+		.fail(function (e) {
+			console.log(e);
+		})
+}
+function onSignInFailure(t) {
+	console.log(t);
+}
