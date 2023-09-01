@@ -7,9 +7,7 @@ $('body footer').load('../../common/footer.html .footer_sub>.inner_c');
 
 
 function loadAfter(){
-	let url = window.location.pathname;
-	let urlArr = url.split('/');
-	console.log('check', url)
+	let url = window.location.pathname,a,b, urlArr = url.split('/');
 	const textData = [
 		{id:'use',text:'이용안내',idx:0,html:'operation',sub:[{subhtml:'operation.html',text:'운영/운휴시간 안내'},{subhtml:'show.html',text:'공연일정'}]},
 		{id:'charge',text:'요금정보',idx:1,html:'usecharge',sub:[{subhtml:'usecharge.html',text:'이용요금'},{subhtml:'seasonticket.html',text:'정기권'},{subhtml:'card.html',text:'제휴카드'},{subhtml:'promotion.html',text:'프로모션'}]},
@@ -17,14 +15,14 @@ function loadAfter(){
 		{id:'review',text:'리뷰',idx:3,html:'review_list',sub:[{subhtml:'review_list.html',text:'리뷰'}]}]
 
 	textData.forEach((v,k)=>{
-		if(v.id == urlArr[2]){
+		for(let i=0; i<urlArr.length; i++){ if(v.id == urlArr[i]){ a=urlArr[i]; break} }
+		if(v.id == a){
 			$(".txt_box h2").text(v.text);
 			$('.sub_common .sub_visual').css("background-image", "url('../../asset/image/common/sub_visual" + v.idx + ".jpg')");
 			$('.sub_common .sub_tab .depth01 p span').html( v.text );
 			v.sub.forEach((j,q)=>{
-				if(j.subhtml == urlArr[3]){
-					$('.sub_common .sub_tab .depth02 p span').html( j.text );
-				}
+				for(let i=0; i<urlArr.length; i++){ if(j.subhtml == urlArr[i]){  b=urlArr[i]; break} }
+				if(j.subhtml == b) $('.sub_common .sub_tab .depth02 p span').html( j.text );
 				$('.sub_common .sub_tab .depth02 ul').append('<li><a href="/pages/' + v.id + '/'+ j.subhtml + '">' + j.text + '</a></li>');
 			})
 		}
