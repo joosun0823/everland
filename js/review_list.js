@@ -49,6 +49,7 @@ const modalOn_review = function(vID) {
 			document.querySelector('.pic img').src = resData.detail_img;
 			document.querySelector('.modalName').innerText = '작성자 : '+ resData.name;
 			document.querySelector('.modalDate').innerText = '작성일자 : '+ resData.date;
+			document.querySelector('.modalTit').innerText = '제목 : ' + resData.title;
 			document.querySelector('.modalDesc').innerText = resData.desc;
 		}
 
