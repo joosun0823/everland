@@ -799,7 +799,7 @@ section h2 {
   opacity: 0%;
 }
 .section2 .inner .swiper-scrollbar-drag {
-  background-color: #333333;
+  background-color: #7fcff4;
 }
 .section2 .inner .swiper-scrollbar {
   margin-left: 30%;
@@ -854,7 +854,7 @@ section h2 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.37);
+  background: linear-gradient(0deg, rgba(1, 0, 0, 0.6), transparent);
   border-radius: 5%;
 }
 .section2 .swiper .swiper-wrapper .swiper-slide.area1 {
@@ -892,6 +892,7 @@ section h2 {
   flex-direction: column;
 }
 .section2 .swiper .swiper-wrapper .swiper-slide .title {
+  font-weight: bold;
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 2.3rem;
@@ -1352,7 +1353,7 @@ section h2 {
     opacity: 0%;
   }
   .section2 .inner .swiper-scrollbar-drag {
-    background-color: #333333;
+    background-color: #7fcff4;
   }
   .section2 .inner .swiper-scrollbar {
     margin-left: 0;
@@ -1411,7 +1412,7 @@ section h2 {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(1, 0, 0, 0.6), transparent);
     opacity: 50%;
     border-radius: 5%;
   }
@@ -1486,7 +1487,6 @@ section h2 {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    margin: 10% auto;
     width: 100%;
   }
   .section3 .inner .promotion-contents .pages {
@@ -1892,7 +1892,7 @@ section h2 {
     opacity: 0%;
   }
   .section2 .inner .swiper-scrollbar-drag {
-    background-color: #333333;
+    background-color: #7fcff4;
   }
   .section2 .inner .swiper-scrollbar {
     margin-left: 0;
@@ -1951,7 +1951,7 @@ section h2 {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(1, 0, 0, 0.6), transparent);
     opacity: 50%;
     border-radius: 5%;
   }
@@ -2440,7 +2440,7 @@ section h2 {
     opacity: 0%;
   }
   .section2 .inner .swiper-scrollbar-drag {
-    background-color: #333333;
+    background-color: #7fcff4;
   }
   .section2 .inner .swiper-scrollbar {
     margin-left: 0;
@@ -2497,7 +2497,7 @@ section h2 {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background: linear-gradient(0deg, rgba(1, 0, 0, 0.6), transparent);
     opacity: 50%;
     border-radius: 5%;
   }
