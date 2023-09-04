@@ -1,66 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../css/use.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/use.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-  <script src="../../js/use.js"></script>
-  <script defer src="../../js/common.js"></script>
+	<script src="../../js/use.js"></script>
+	<script defer src="../../js/common.js"></script>
 	<!-- favicon	 -->
 	<link rel="icon" type="image/png" sizes="32x32" href="../../asset/image/common/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="../../asset/image/common/favicon-16x16.png">
 	<title>EVERLAND</title>
 </head>
 <body>
-  <header class="header_sub"></header>
-  <main>
+	<header class="header_sub"></header>
+	<main>
 		<div class="sub_common"></div>
-    <section class="inner_c">
-      <h2>운영/운휴시간 안내</h2>
-      <article class="schedule">
-        <b class="scheduleDate">
-          <!-- new date로 날짜 작성하기 --></b>
-        <div class="img_wrap">
-          <div class="sched_img">
-            <img src="../../asset/image/use/USE_oper_date.jpg" alt="">
-            <div class="time">
-              <p>운영시간</p>
-              <b>10 : 00 ~ 22 : 00</b>
-            </div>
-          </div>
-        </div>
-      </article>
-    <section class="inner_c">
-      <h2>오늘의 운휴시설</h2>
-      <article class="rest_area">  
-        <div class="rest">
-          <div class="rest_img">
-            <!-- 운휴시설 이미지 넣는곳 (background-image) /JSON작업 마무리하기 -->
-          </div>
-          <div class="rest_txt">
-            <!-- 오늘의 운휴시설 JSON 랜덤으로 두개씩 뿌리기 -->
-            <b>어트랙션 이름</b>
-            <p>어트랙션 위치작성</p>
-          </div>
-        </div>
-      </article>
-      <section class="inner_c">
-        <div class="warning">
-          <div class="warning_img"></div>
-          <ul class="warning_txt">
-            <li>폭우, 강풍, 기온 저하 등 기상 악화 시 어트랙션 운행이 중단될 수 있으니 양해해 주시기 바랍니다.</li>
-            <li>운휴계획은 주간단위로 업데이트되므로 방문예정일의 운휴계획이 확정 전이라면방문일 전에 운휴계획을 재확인하시기 바랍니다.</li>
-            <li>운휴계획은 현장상황에 따라 예고없이 변경될 수 있습니다.</li>
-          </ul>
-        </div>
-      </section>
-    </section>
-  </main>
-  <footer></footer>
-  <script>
-    dateOper();
-  </script>
+		<section class="inner_c">
+			<h2>운영/운휴시간 안내</h2>
+			<article class="schedule">
+				<b class="scheduleDate">
+					<!-- new date로 날짜 작성하기 --></b>
+				<div class="img_wrap">
+					<div class="sched_img">
+						<img src="../../asset/image/use/USE_oper_date.jpg" alt="">
+						<div class="time">
+							<p>운영시간</p>
+							<b>10 : 00 ~ 22 : 00</b>
+						</div>
+					</div>
+				</div>
+			</article>
+		<section class="inner_c">
+			<h2>오늘의 운휴시설</h2>
+			<article class="rest_area">  
+				<div class="rest">
+					<div class="rest_img">
+						<!-- 운휴시설 이미지 넣는곳 (background-image) /JSON작업 마무리하기 -->
+					</div>
+					<div class="rest_txt">
+						<!-- 오늘의 운휴시설 JSON 랜덤으로 두개씩 뿌리기 -->
+						<b>어트랙션 이름</b>
+						<p>어트랙션 위치작성</p>
+					</div>
+				</div>
+			</article>
+			<section class="inner_c">
+				<div class="warning">
+					<div class="warning_img"></div>
+					<ul class="warning_txt">
+						<li>폭우, 강풍, 기온 저하 등 기상 악화 시 어트랙션 운행이 중단될 수 있으니 양해해 주시기 바랍니다.</li>
+						<li>운휴계획은 주간단위로 업데이트되므로 방문예정일의 운휴계획이 확정 전이라면방문일 전에 운휴계획을 재확인하시기 바랍니다.</li>
+						<li>운휴계획은 현장상황에 따라 예고없이 변경될 수 있습니다.</li>
+					</ul>
+				</div>
+			</section>
+		</section>
+		<div class="side">
+			<div class="arrow">
+					<a><img src="../../asset/icon/fix_arrow.png" alt=""></a>
+			</div>
+		</div>
+	</main>
+	<footer></footer>
+	<script>
+		dateOper();
+	</script>
 </body>
 </html>
