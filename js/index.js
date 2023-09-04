@@ -1,25 +1,18 @@
 new fullpage('#fullpage', {
     afterLoad: function (origin, destination, direction) {
-		// console.log(destination.index)
         if (destination.index == 0) {
-                $("#header-section").addClass("active");
-                $("#header-section .gnb > li > a").addClass("active");
-                $("#header-section .gnb_right").addClass("active");
-                $('#header-section .gnb_right').on('click', function() {
-                    $(this).addClass('active')
-                })
+                $("header").addClass("active");
+                $(".gnb > li > a").addClass("active");
+                $(".gnb_right").addClass("active");
             } else {
-                $("#header-section").removeClass("active");
-                $("#header-section .gnb > li > a").removeClass("active");
-                $("#header-section .gnb_right").removeClass("active");
-                $('#header-section .gnb_right').on('click', function() {
-                    $(this).removeClass('active')
-                })
+                $("header").removeClass("active");
+                $(".gnb > li > a").removeClass("active");
+                $(".gnb_right").removeClass("active");
             }
 
         $(".section.active").find(".inner .main_title").addClass("active");
         $(".section.active").find(".inner .promotion-contents").addClass("active");
-        $(".section.active").find("h2").addClass("active");
+        // $(".section.active").find("h2").addClass("active");
         $(".section.active").find(".filter").addClass("active");
     },
 
@@ -34,6 +27,7 @@ new fullpage('#fullpage', {
 
 var swiper = new Swiper(".sec1Swiper", {
     loop: true,
+    clickable: true,
     autoplay: {
         delay: 5000, // 5초마다 슬라이드 전환
     },
@@ -47,14 +41,25 @@ var swiper = new Swiper(".sec1Swiper", {
             $(".swiper-slide-active").find(".mainTexts").addClass("active")
         },
         slideChange: function(e) {
-            var currentSlideIndex = e.activeIndex;
-            // if (currentSlideIndex == 3 || currentSlideIndex == 4) {
-            //     $(".gnb > li > a").addClass("active");
-            //     $(".gnb_right").addClass("active");
-            // } else {
-            //     $(".gnb > li > a").removeClass("active");
-            //     $(".gnb_right").removeClass("active");
-            // }			
+            let currentSlideIndex = e.activeIndex;
+            if (currentSlideIndex == 0) {
+                $(".swiper-pagination-bullet").css("background-color", "red")
+            }			
+            if (currentSlideIndex == 1) {
+                $(".swiper-pagination-bullet").css("background-color", "blue")
+            }			
+            if (currentSlideIndex == 2) {
+                $(".swiper-pagination-bullet").css("background-color", "green")
+            }			
+            if (currentSlideIndex == 3) {
+                $(".swiper-pagination-bullet").css("background-color", "purple")
+            }			
+            if (currentSlideIndex == 4) {
+                $(".swiper-pagination-bullet").css("background-color", "red")
+            }			
+            if (currentSlideIndex == 5) {
+                $(".swiper-pagination-bullet").css("background-color", "blue")
+            }			
         }
     }
 });
@@ -63,20 +68,24 @@ var swiper = new Swiper(".sec1Swiper", {
 var swiper = new Swiper(".sec2Swiper", {
     slidesPerView: 4,
     spaceBetween: 20,
-    loop: true,
+    // loop: true,
     speed: 800,
     breakpoints: {
         0: {
             slidesPerView: 1,
+            hide: true,
         },
         480: {
             slidesPerView: 2,
+            hide: true,
         },
         768: {
             slidesPerView: 3,
+            hide: true,
         },
         1200: {
             slidesPerView: 4,
+            hide: false,
         }
     },
     autoplay: {
@@ -88,7 +97,6 @@ var swiper = new Swiper(".sec2Swiper", {
     },
     scrollbar: {
     el: ".swiper-scrollbar",
-    hide: false,
     },
 });
 
@@ -124,10 +132,6 @@ var swiper = new Swiper(".sec4Swiper", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
-    },
-    scrollbar: {
-        el: ".swiper-scrollbar",
-        hide: false,
     },
 });
 
