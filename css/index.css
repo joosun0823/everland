@@ -1037,7 +1037,7 @@ section h2 {
   top: 0;
   left: 0;
   border-radius: 5%;
-  background-color: rgba(0, 0, 0, 0.39);
+  background: linear-gradient(0deg, rgba(1,0,0,0.6), transparent);
 }
 .section4 .inner .swiper .swiper-wrapper .swiper-slide:hover {
   transform: translateY(-15%);
@@ -1573,7 +1573,7 @@ section h2 {
     top: 0;
     left: 0;
     border-radius: 5%;
-    background-color: rgba(0, 0, 0, 0.39);
+    background: linear-gradient(0deg, rgba(1,0,0,0.6), transparent);
   }
   .section4 .inner .swiper .swiper-wrapper .swiper-slide:hover {
     transform: translateY(-15%);
@@ -2115,7 +2115,7 @@ section h2 {
     top: 0;
     left: 0;
     border-radius: 5%;
-    background-color: rgba(0, 0, 0, 0.39);
+    background: linear-gradient(0deg, rgba(1,0,0,0.6), transparent);
   }
   .section4 .inner .swiper .swiper-wrapper .swiper-slide:hover {
     transform: translateY(-15%);
@@ -2662,7 +2662,7 @@ section h2 {
     top: 0;
     left: 0;
     border-radius: 5%;
-    background-color: rgba(0, 0, 0, 0.39);
+    background: linear-gradient(0deg, rgba(1,0,0,0.6), transparent);
   }
   .section4 .inner .swiper .swiper-wrapper .swiper-slide:hover {
     transform: translateY(-15%);
